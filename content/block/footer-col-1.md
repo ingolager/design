@@ -1,3 +1,3 @@
-#### Footer col 1
+#### Designtips 1
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Finland är världsberömt för sin formgivning. På [Designmuseet](http://www.designmuseum.fi/sv/) i Helsingfors visas det mesta upp från de senaste hundra åren och lite till.

@@ -1,3 +1,3 @@
-#### Footer col 2
+#### Designtips 2
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Norden har länge varit ett eldorado för design. Boken [Ny nordisk design](https://historiskamedia.se/bok/ny-nordisk-design/) av Dorothea Gundtoft skildrar utvecklingen under 2010-talet.

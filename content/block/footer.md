@@ -1,1 +1,3 @@
-Copyright år och ditt namn samt diverse länkar som du finner relevanta.
+(c) 2018 Ingvar Lagerlöf
+
+"Antingen hittar vi en väg, eller så gör vi en". Sagt av Hannibal vid andra puniska kriget.
