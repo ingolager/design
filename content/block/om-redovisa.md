@@ -1,3 +1,3 @@
-#### Redovisa på GitHub
+#### Min plats på GitHub
 
-Skriv något kort om ditt redovisa-repo och länka till [repot för me/redovisa på GitHub](XXX).
+I [repot för denna webbplats på GitHub](https://github.com/ingolager/design) finns koden för denna webbplats. Uppdateringar sker regelbundet under kursens gång.
