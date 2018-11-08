@@ -1,25 +1,13 @@
 ---
-title: "Min fina titel"
+title: "Hem"
 ---
-Min me-sida i kursen design
+En känsla för design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
+[FIGURE src="image/rokoko.jpg?w=300" class="right" alt="Image of rokoko ceiling"]
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+Det finns ingen på redaktionen där jag har en del av min vardag som tar så kassa bilder som jag. Senaste gången jag försökte lyckades jag inte ens åstadkomma en publicerbar enkät, ni vet en så där med små passkort och tre meningar om något viktigt eller oviktigt. Ut och gör om, ta med dig någon som kan fotografera var budskapet.
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Men trots att jag ständigt misslyckas med att ta egna bilder tas jag ändå på allvar ibland. Kan du inte flytta den bilden dit och ha faktarutan där med en linje under, hör jag mig själv säga och till min förvåning nickar den erfarne layoutaren. Jag har varit omgiven av design och diskuterat formfrågor under en stor del av mitt yrkesliv, men har aldrig satt mig in i ordentligt hur det går till.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
-
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
-
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
-
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+Därför ska det bli spännande att gå denna kurs och få lära sig något om hantverket. Och vem vet, kanske har jag en känsla för design. Åtminstone en liten gnutta.
