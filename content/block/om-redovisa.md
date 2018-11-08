@@ -1,3 +1,3 @@
 #### Min plats på GitHub
 
-I [repot för denna webbplats på GitHub](https://github.com/ingolager/design) finns koden för denna webbplats. Uppdateringar sker regelbundet under kursens gång.
+Koden för denna webbplats finns i [mitt repo på GitHub](https://github.com/ingolager/design). Uppdateringar sker regelbundet under kursens gång.

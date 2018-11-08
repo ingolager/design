@@ -3,4 +3,4 @@
 Redovisningstexter
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/redovisning/00_index.md`.
+Här finns alla mina redovisningar för kursen samlade. Välj valfri redovisning i menyn här intill.
