@@ -15,7 +15,7 @@ views:
 En känsla för design
 =========================
 
-[FIGURE src="image/rokoko.jpg?w=300" class="right" alt="Image of rokoko ceiling"]
+[FIGURE src="image/rokoko.jpg?w=300" class="right" caption="Konst eller design eller kanske bådadera. Rokokotak i stiftskyrkan i Wilhering i Österrike." alt="Image of rokoko ceiling"]
 
 Det finns ingen på redaktionen där jag har en del av min vardag som tar så kassa bilder som jag. Senaste gången jag försökte lyckades jag inte ens åstadkomma en publicerbar enkät, ni vet en så där med små passkort och tre meningar om något viktigt eller oviktigt. Ut och gör om, ta med dig någon som kan fotografera var budskapet.
 
