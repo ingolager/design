@@ -12,12 +12,12 @@ views:
                 route: block/byline
 
 ---
-En känsla för form
+En gnutta känsla för form
 =========================
 
 [FIGURE src="image/rokoko.jpg?w=300" class="right" caption="Konst eller design eller kanske bådadera. Rokokotak i stiftskyrkan i Wilhering i Österrike." alt="Image of rokoko ceiling"]
 
-Det finns ingen på redaktionen där jag har en del av min vardag som tar så kassa bilder som jag. Senaste gången jag försökte lyckades jag inte ens åstadkomma en publicerbar enkät, ni vet en så där med små frimärksbilder och tre meningar om något viktigt eller oviktigt. Ut och gör om, ta med dig någon som kan fotografera var budskapet.
+Det finns ingen på redaktionen där jag har en del av min vardag som tar så kassa bilder som jag. Senaste gången jag försökte lyckades jag inte ens åstadkomma en publicerbar enkät, ni vet en sån där med små frimärksbilder och tre meningar om något viktigt eller oviktigt. Ut och gör om, ta med dig någon som kan fotografera var budskapet.
 
 Men trots att jag ständigt misslyckas med att ta egna bilder tas jag ändå på allvar ibland. Kan du inte flytta den bilden dit och ha faktarutan där med en linje under, hör jag mig själv säga och till min förvåning nickar den erfarne layoutaren. Jag har varit omgiven av design och diskuterat formfrågor under en stor del av mitt yrkesliv, men har aldrig satt mig ordentligt in i hur det går till.
 
