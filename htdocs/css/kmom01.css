@@ -24,6 +24,11 @@ html {
     font-size: 100%;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 body {
     background-color: #fff;
 }
@@ -36,6 +41,13 @@ h1 {
 h4 {
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+    padding-top: 26px;
 }
 
 article {
@@ -102,6 +114,7 @@ article {
     margin-right: auto;
     margin-left: auto;
     max-width: 100%;
+    height: auto;
 }
 
 .region-header-col-2 {
@@ -117,7 +130,7 @@ article {
 }
 
 .region-header-col-2 li a {
-    color: #1e90ff;
+    color: #483D8B;
     text-decoration: none;
 }
 
@@ -136,7 +149,6 @@ article {
 }
 
 .region-main {
-    padding-top: 24px;
     display: inline;
     float: left;
     width: 80%;
@@ -149,6 +161,7 @@ figure {
 
 figure.figure.right {
     float: right;
+    margin-top: 0;
     margin-left: 5em;
 }
 
@@ -193,7 +206,7 @@ figure.figure.left {
 }
 
 .footer-column a {
-    color: #1e90ff;
+    color: #c71585;
     text-decoration: none;
 }
 
@@ -260,7 +273,7 @@ figure.figure.left {
 }
 
 .wrap-sidebar a {
-    color: #1e90ff;
+    color: #c71585;
     text-decoration: none;
 }
 
