@@ -58,6 +58,7 @@ article {
 
 .row {
     display: block;
+    width: 100%;
 }
 
 .wrap-all {
@@ -79,6 +80,7 @@ article {
 
 .region-header {
     padding-top: 24px;
+    box-sizing: border-box;
 }
 
 .region-header-col-1 {
@@ -95,13 +97,19 @@ article {
     font-size: 80px;
     text-decoration: none;
     color: #c71585;
-    }
+}
+
+ul {
+    display: inline;
+}
 
 .rm-navbar {
     list-style-type: none;
     padding-left: 0;
     text-align: center;
-    line-height: 0;
+    line-height: 0px;
+    margin: 0;
+    height: 50px;
 }
 
 .my-navbar {
@@ -110,7 +118,7 @@ article {
     float: left;
 }
 
-.inner-wrap.inner-wrap-header {
+.inner-wrap-header {
     margin-right: auto;
     margin-left: auto;
     max-width: 100%;
@@ -120,13 +128,15 @@ article {
 .region-header-col-2 {
     float: right;
     width: 70%;
+    height: 50px;
 }
 
 .region-header-col-2 li {
-    float:left;
-    padding-right: 1em;
+    float: left;
     font-family: 'Open Sans', sans-serif;
     font-size: 28px;
+    padding-right: 20px;
+    height: 28px;
 }
 
 .region-header-col-2 li a {
@@ -138,11 +148,11 @@ article {
     text-decoration: underline;
 }
 
-.outer-wrap.outer-wrap-main {
+.outer-wrap-main {
     box-sizing: border-box;
 }
 
-.inner-wrap.inner-wrap-main {
+.inner-wrap-main {
     margin-right: auto;
     margin-left: auto;
     max-width: 100%;

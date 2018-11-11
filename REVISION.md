@@ -10,3 +10,7 @@ Adding readme, revsion and license files.
 v 1.0.2 (2018-11-10)
 -----------------------
 Adding text and rudimental style making website my own style.
+
+v 1.0.5 (2018-11-11)
+----------------------
+Done with kmom01.
