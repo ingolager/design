@@ -64,9 +64,11 @@
 html {
   overflow-y: scroll;
   background-color: #424242;
+  font-size: 100%;
 }
 body {
-  margin: 0;
+  width: 90%;
+  margin: auto;
   padding: 0;
   color: #333;
   background-color: #fff;
@@ -89,26 +91,15 @@ h4 {
   font-family: 'Oswald', sans-serif;
   font-size: 20px;
 }
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
 article {
   font-family: 'Lora', serif;
   font-size: 16px;
   padding-bottom: 16px;
 }
-/**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
- */
-/**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
- */
-/**
- * Variables
- */
-/**
- * General layout
- */
-/* Hide responsive/mobile menu, leave this to kmom02 */
 .row {
   display: block;
   width: 100%;
@@ -127,14 +118,6 @@ article {
 }
 .site-logo {
   display: none;
-}
-.region-header {
-  padding-top: 36px;
-  box-sizing: border-box;
-}
-.region-header-col-1 {
-  float: left;
-  line-height: 0;
 }
 .site-logo-text-icon {
   display: none;
@@ -281,6 +264,14 @@ figure.figure.left {
  */
 @media screen and (max-width: 1500px) {
   .site-logo {
+    display: none;
+  }
+}
+/**
+ * Example on media queries
+ */
+@media screen and (max-width: 1010px) {
+  .rm-default {
     display: none;
   }
 }

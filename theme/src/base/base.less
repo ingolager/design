@@ -7,7 +7,7 @@
  @import url('https://fonts.googleapis.com/css?family=Oswald');
  @import url('https://fonts.googleapis.com/css?family=Lora');
 
-@bgColorHtml: #424242;
+@bgColorHtml: #fff;
 @bgColorBody: #fff;
 @colorBody: #333;
 @fontFamilyBody: serif;
@@ -15,10 +15,12 @@
 html {
     overflow-y: scroll;
     background-color: @bgColorHtml;
+    font-size: 100%;
 }
 
 body {
-    margin: 0;
+    width: 90%;
+    margin: auto;
     padding: 0;
     color: @colorBody;
     background-color: @bgColorBody;
@@ -44,12 +46,4 @@ h3 {
 h4 {
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
-}
-
-
-
-article {
-    font-family: 'Lora', serif;
-    font-size: 16px;
-    padding-bottom: 16px;
 }
