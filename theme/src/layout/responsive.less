@@ -8,11 +8,23 @@
     }
 }
 
+
+
 /**
  * Example on media queries
  */
 @media screen and (max-width: 1010px) {
-    .rm-default {
+    .rm-desktop {
+        padding-right: 0;
+    }
+    .region-header-col-2 {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .region-header-col-2 {
         display: none;
     }
 }

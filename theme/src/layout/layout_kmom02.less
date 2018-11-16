@@ -58,18 +58,9 @@
     font-size: 80px;
     text-decoration: none;
     color: #c71585;
+    z-index: 2;
 }
 
-.rm-navbar {
-    line-height: 0px;
-    height: 50px;
-}
-
-.my-navbar {
-    list-style-type: none;
-    display: inline;
-    float: left;
-}
 
 .inner-wrap-header {
     max-width: 100%;
@@ -78,6 +69,7 @@
 .region-header-col-1 {
     width: 20%;
     float: left;
+    z-index: 2;
 }
 
 .region-header-col-2 {
@@ -95,8 +87,9 @@
 .region-header-col-2 li {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    padding-left: 4px;
-
+    padding-right: 4px;
+    background-color: #fff;
+    z-index: 1;
 }
 
 .region-header-col-2 li a {
@@ -106,6 +99,21 @@
 
 .region-header-col-2 li a:hover {
     text-decoration: underline;
+}
+
+#rm-menu {
+    background-color: #c71585;
+}
+
+.rm-mobile li {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    padding-left: 100px;
+    border: 2px;
+}
+
+#rm-menu-button.rm-clicked {
+    color: #ffffe0;
 }
 
 .inner-wrap-flash {
