@@ -1,0 +1,55 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+
+ @import url('https://fonts.googleapis.com/css?family=Black+And+White+Picture');
+ @import url('https://fonts.googleapis.com/css?family=Black+And+White+Picture|Open+Sans');
+ @import url('https://fonts.googleapis.com/css?family=Oswald');
+ @import url('https://fonts.googleapis.com/css?family=Lora');
+
+@bgColorHtml: #424242;
+@bgColorBody: #fff;
+@colorBody: #333;
+@fontFamilyBody: serif;
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+    padding-top: 26px;
+}
+
+h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+
+
+article {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    padding-bottom: 16px;
+}

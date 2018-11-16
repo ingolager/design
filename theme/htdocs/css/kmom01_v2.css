@@ -14,6 +14,23 @@
  * This stylesheet is for the design course and kmom01. Fill it with style
  * to style up the website so it is useable.
  */
+/* Hide submenu, leave this to kmom02 */
+/* Hide responsive/mobile menu, leave this to kmom02 */
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
 @font-face {
   font-family: 'Black And White Picture';
   font-style: normal;
@@ -44,6 +61,57 @@
   font-weight: 400;
   src: local('Lora Regular'), local('Lora-Regular'), url(https://fonts.gstatic.com/s/lora/v12/0QIvMX1D_JOuMwr7Jg.ttf) format('truetype');
 }
+html {
+  overflow-y: scroll;
+  background-color: #424242;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fff;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+}
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  margin-top: 0;
+  padding-top: 26px;
+}
+h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+article {
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  padding-bottom: 16px;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+.inner-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+}
 /* Hide submenu, leave this to kmom02 */
 .rm-desktop ul {
   display: none;
@@ -52,52 +120,27 @@
 .rm-navbar-max {
   display: none;
 }
-html {
-  font-size: 100%;
-  overflow-y: scroll;
-}
-img {
-  max-width: 100%;
-  height: auto;
-}
-body {
-  background-color: #fff;
-  margin: auto;
-}
-h1 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 36px;
-}
-h4 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 20px;
-}
-h3 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 20px;
-  margin-top: 0;
-  padding-top: 26px;
-}
-article {
-  font-family: 'Lora', serif;
-  font-size: 16px;
-  padding-bottom: 16px;
-}
 .row {
   display: block;
   width: 100%;
 }
-.outer-wrap {
-  max-width: 1200px;
+.rm-navbar {
+  padding-left: 0;
+  text-align: center;
+  line-height: 0px;
+  margin: 0;
+  height: 50px;
 }
-.inner-wrap {
-  max-width: 1200px;
+.my-navbar {
+  list-style-type: none;
+  display: inline;
+  float: left;
 }
 .site-logo {
   display: none;
 }
 .region-header {
-  padding-top: 24px;
+  padding-top: 36px;
   box-sizing: border-box;
 }
 .region-header-col-1 {
@@ -113,32 +156,14 @@ article {
   text-decoration: none;
   color: #c71585;
 }
-ul {
-  display: inline;
-}
 .rm-navbar {
-  list-style-type: none;
-  padding-left: 0;
-  text-align: center;
   line-height: 0px;
-  margin: 0;
   height: 50px;
 }
 .my-navbar {
   list-style-type: none;
   display: inline;
   float: left;
-}
-.inner-wrap-header {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 100%;
-  height: auto;
-}
-.region-header-col-2 {
-  float: right;
-  width: 70%;
-  height: 50px;
 }
 .region-header-col-2 li {
   float: left;
@@ -154,13 +179,9 @@ ul {
 .region-header-col-2 li a:hover {
   text-decoration: underline;
 }
-.outer-wrap-main {
-  box-sizing: border-box;
-}
-.inner-wrap-main {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 100%;
+.region-main {
+  width: 80%;
+  margin-left: 12%;
 }
 .region-main {
   width: 80%;
@@ -197,17 +218,10 @@ figure.figure.left {
   margin-right: auto;
   margin-left: auto;
   max-width: 1100px;
-}
-.region-footer {
   background-color: #ffffe0;
-}
-.footer-column-wrapper {
-  float: left;
-  display: inline;
 }
 .footer-column {
   float: left;
-  display: inline;
   width: 30%;
   padding-left: 12px;
   padding-right: 12px;
@@ -236,6 +250,17 @@ figure.figure.left {
   list-style-type: none;
   padding-left: 2em;
 }
+.region-sidebar-left a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+.region-sidebar-left a:hover {
+  text-decoration: underline;
+}
+.region-main.has-sidebar-left {
+  display: inline;
+  width: 60%;
+}
 .breadcrumb-list ul {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -243,24 +268,12 @@ figure.figure.left {
   padding-left: 2em;
   text-decoration: none;
 }
-.region-sidebar-left a {
-  color: #1e90ff;
-  text-decoration: none;
-}
 .breadcrumb-list a {
   color: black;
   text-decoration: none;
 }
-.region-sidebar-left a:hover {
-  text-decoration: underline;
-}
 .breadcrumb-list a:hover {
   text-decoration: underline;
-}
-.region-main.has-sidebar-left {
-  display: inline;
-  float: left;
-  width: 60%;
 }
 .region-main.has-sidebar-right {
   display: inline;
@@ -273,50 +286,6 @@ figure.figure.left {
 }
 .wrap-sidebar a:hover {
   text-decoration: underline;
-}
-/**
- * Style for the stylechooser.
- */
-/**
- * Variables
- */
-/**
- * Style
- */
-/**
- * Base style to affect HTML elements on a general scale.
- */
-/**
- * Base style to affect HTML elements on a general scale.
- */
-html {
-  overflow-y: scroll;
-  background-color: #424242;
-}
-body {
-  margin: 0;
-  padding: 0;
-  color: #333;
-  background-color: #fff;
-  font: 100.01%/1 serif;
-}
-/**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
- */
-/**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
- */
-/**
- * Variables
- */
-/**
- * General layout
- */
-.inner-wrap {
-  max-width: 1100px;
-  margin: 0 auto;
 }
 /**
  * Layout for responsive style through media queries.
