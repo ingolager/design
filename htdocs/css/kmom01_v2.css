@@ -73,23 +73,13 @@ body {
   color: #333;
   background-color: #fff;
 }
+.inner-wrap {
+  width: 100%;
+  margin: 0 auto;
+}
 img {
   max-width: 100%;
   height: auto;
-}
-h1 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 36px;
-}
-h3 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 20px;
-  margin-top: 0;
-  padding-top: 26px;
-}
-h4 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 20px;
 }
 /**
  * Layout style for general structure of header, navbar, main, footer
@@ -262,26 +252,42 @@ figure.figure.left {
 /**
  * Layout for responsive style through media queries.
  */
-@media screen and (max-width: 1500px) {
-  .site-logo {
-    display: none;
-  }
-}
 /**
  * Example on media queries
  */
 @media screen and (max-width: 1010px) {
-  .rm-desktop {
-    padding-right: 0;
-  }
   .region-header-col-2 {
     float: none;
     width: 100%;
+    clear: left;
+    padding-top: 0;
   }
 }
 @media screen and (max-width: 720px) {
   .region-header-col-2 {
     display: none;
+  }
+  .region-header-col-3 {
+    display: inline;
+    width: 10%;
+    float: left;
+  }
+  .region-main.has-sidebar-left.has-sidebar-right,
+  .region-main.has-sidebar-left,
+  .region-main.has-sidebar-right,
+  .region-sidebar-right,
+  .region-sidebar-right.has-sidebar-left,
+  .region-sidebar-left.has-sidebar-right,
+  .footer-column {
+    float: none;
+    clear: left;
+    margin: 0;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 485px) {
+  body {
+    margin: 0;
   }
 }
 /**

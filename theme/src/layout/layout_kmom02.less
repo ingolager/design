@@ -21,28 +21,59 @@
 //     display: none;
 //  }
 
-
-.inner-wrap {
-    width: 1100px;
-    margin: 0 auto;
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    word-break: break-all;
 }
 
-.row {
-    display: block;
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+    padding-top: 26px;
+    word-break: break-all;
 }
 
-.rm-navbar {
-    padding-left: 0;
-    text-align: center;
-    line-height: 0px;
-    margin: 0;
-    height: 50px;
+h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    word-break: break-all;
 }
 
-.my-navbar {
-    list-style-type: none;
-    display: inline;
+
+.inner-wrap-header {
+    max-width: 100%;
+}
+
+.region-header-col-1 {
+    width: 20%;
     float: left;
+}
+
+.region-header-col-2 {
+    width: 70%;
+    float: left;
+    padding-top: 42px;
+}
+
+.region-header-col-2 li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    background-color: #fff;
+}
+
+.region-header-col-2 li a {
+    color: #483D8B;
+    text-decoration: none;
+}
+
+.region-header-col-2 li a:hover {
+    text-decoration: underline;
+}
+
+.region-header-col-3 {
+    display: none;
 }
 
 .site-logo {
@@ -61,48 +92,26 @@
     z-index: 2;
 }
 
-
-.inner-wrap-header {
-    max-width: 100%;
-}
-
-.region-header-col-1 {
-    width: 20%;
-    float: left;
-    z-index: 2;
-}
-
-.region-header-col-2 {
-    width: 70%;
-    float: left;
-    padding-top: 42px;
+.rm-navbar {
+    padding-left: 0;
     text-align: center;
+    line-height: 0px;
+    margin: 0;
+    height: 50px;
 }
 
-.region-header-col-3 {
-    width: 10%;
+.my-navbar {
+    list-style-type: none;
+    display: inline;
     float: left;
-}
-
-.region-header-col-2 li {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    padding-right: 4px;
-    background-color: #fff;
-    z-index: 1;
-}
-
-.region-header-col-2 li a {
-    color: #483D8B;
-    text-decoration: none;
-}
-
-.region-header-col-2 li a:hover {
-    text-decoration: underline;
 }
 
 #rm-menu {
     background-color: #c71585;
+}
+
+#rm-menu-button.rm-clicked {
+    color: #ffffe0;
 }
 
 .rm-mobile li {
@@ -110,10 +119,6 @@
     text-align: left;
     padding-left: 100px;
     border: 2px;
-}
-
-#rm-menu-button.rm-clicked {
-    color: #ffffe0;
 }
 
 .inner-wrap-flash {
@@ -141,18 +146,18 @@ figure.figure.right {
     margin-left: 5em;
 }
 
-figure.figure figcaption {
-    display: table-caption;
-    caption-side: bottom;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-}
-
 figure.figure.left {
     float: left;
     margin-left: 0;
     margin-top: 0;
     margin-right: 20px;
+}
+
+figure.figure figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 .block p {
@@ -167,7 +172,7 @@ figure.figure.left {
 .inner-wrap-footer {
     margin-right: auto;
     margin-left: auto;
-    max-width: 90%;
+    max-width: 100%;
     background-color: #ffffe0;
 }
 
@@ -194,10 +199,28 @@ figure.figure.left {
     padding-bottom: 20px;
 }
 
+.region-main.has-sidebar-left {
+    width: 60%;
+}
+
+.region-main.has-sidebar-right {
+    float: left;
+    width: 70%;
+
+    &.has-sidebar-left {
+        float: left;
+        width: 50%;
+        margin: 2em;
+    }
+}
+
 .region-sidebar-left {
-    display: inline;
     float: left;
     width: 30%;
+
+    &.has-sidebar-right {
+        width: 20%;
+    }
 }
 
 .region-sidebar-left ul {
@@ -208,17 +231,21 @@ figure.figure.left {
 }
 
 .region-sidebar-left a {
-    color: #1e90ff;
-    text-decoration: none
+    color: #c71585;
+    text-decoration: none;
 }
 
 .region-sidebar-left a:hover {
     text-decoration: underline;
 }
 
-.region-main.has-sidebar-left {
-    display: inline;
-    width: 60%
+.region-sidebar-right {
+    float: left;
+    width: 15%;
+
+    &.has-sidebar-left {
+        width: 20%;
+    }
 }
 
 .breadcrumb-list ul {
@@ -235,20 +262,5 @@ figure.figure.left {
 }
 
 .breadcrumb-list a:hover {
-    text-decoration: underline;
-}
-
-.region-main.has-sidebar-right {
-    display: inline;
-    float: left;
-    width: 70%
-}
-
-.wrap-sidebar a {
-    color: #c71585;
-    text-decoration: none;
-}
-
-.wrap-sidebar a:hover {
     text-decoration: underline;
 }
