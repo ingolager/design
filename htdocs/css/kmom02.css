@@ -4818,47 +4818,6 @@ figure.figure figcaption {
 /**
  * Example on media queries
  */
-@media screen and (max-width: 1010px) {
-  .region-header-col-2 {
-    float: none;
-    width: 100%;
-    clear: left;
-    padding-top: 0;
-  }
-}
-@media screen and (max-width: 720px) {
-  h1 {
-    font-size: 28px;
-  }
-  .region-header-col-2 {
-    display: none;
-  }
-  .region-header-col-3 {
-    display: inline;
-    width: 10%;
-    float: left;
-  }
-  .region-main.has-sidebar-left.has-sidebar-right,
-  .region-main.has-sidebar-left,
-  .region-main.has-sidebar-right,
-  .region-sidebar-right,
-  .region-sidebar-right.has-sidebar-left,
-  .region-sidebar-left.has-sidebar-right,
-  .footer-column {
-    float: none;
-    clear: left;
-    margin: 0;
-    width: 100%;
-  }
-}
-@media screen and (max-width: 485px) {
-  body {
-    margin: 0;
-  }
-  h1 {
-    font-size: 20px;
-  }
-}
 /**
  * Show off the regions used in the website, to ease styling.
  */
