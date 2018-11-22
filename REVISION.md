@@ -17,4 +17,4 @@ Done with kmom01.
 
 v 2.0.0 (2018-11-18)
 ----------------------
-Done with kmom02, with LESS stylesheets and responsivity.
+Done with kmom02, with LESS stylesheets and responsitivity.
