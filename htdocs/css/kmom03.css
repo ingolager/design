@@ -1,5 +1,5 @@
 /*!
- * Stylesheet for design kmom02.
+ * Stylesheet for design kmom03.
  *
  * This stylesheet is for the design course and kmom02 where we use LESS.
  */
@@ -4581,6 +4581,9 @@ a.rm-button.rm-clicked .rm-button-face-2 {
      * Enable all default typographic elements.
      */
 }
+body {
+  font: 16px/1.5 "sans-serif";
+}
 /**
  * Base style to affect HTML elements on a general scale.
  */
@@ -4622,8 +4625,14 @@ html {
   background-color: #fff;
 }
 body {
+  margin: 0;
+  padding: 0;
   color: #333;
   background-color: #fff;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
 /**
  * Import the vertical grid.
@@ -4664,18 +4673,12 @@ body {
  *
  */
 h1 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 36px;
   word-break: break-all;
 }
 h3 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 20px;
   word-break: break-all;
 }
 h4 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 20px;
   word-break: break-all;
 }
 .row {
@@ -4736,8 +4739,6 @@ h4 {
   margin-right: 0.52083333%;
 }
 .region-header-col-2 li {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
   background-color: #fff;
 }
 .region-header-col-2 li a {
@@ -4778,9 +4779,6 @@ h4 {
 #rm-menu-button.rm-clicked {
   color: #ffffe0;
 }
-.rm-mobile li {
-  font-family: 'Open Sans', sans-serif;
-}
 .region-flash {
   display: inline;
   float: left;
@@ -4814,11 +4812,9 @@ figure.figure.left {
 figure.figure figcaption {
   display: table-caption;
   caption-side: bottom;
-  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
 }
 .block p {
-  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
 }
 .inner-wrap-footer {
@@ -4882,7 +4878,6 @@ figure.figure figcaption {
   margin-right: 0.52083333%;
 }
 .region-sidebar-left ul {
-  font-family: 'Open Sans', sans-serif;
   list-style-type: none;
 }
 .region-sidebar-left a {
@@ -4907,8 +4902,6 @@ figure.figure figcaption {
   margin-right: 0.52083333%;
 }
 .breadcrumb-list ul {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
   list-style-type: none;
   text-decoration: none;
 }
