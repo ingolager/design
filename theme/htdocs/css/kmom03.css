@@ -4627,19 +4627,6 @@ body {
 /**
  *
  */
-.row {
-  display: block;
-  width: 101.04166667%;
-  margin-left: -0.52083333%;
-  margin-right: -0.52083333%;
-  background-color: #0f0;
-  margin-bottom: 12px;
-}
-.row::after {
-  content: "";
-  display: block;
-  clear: both;
-}
 h1 {
   font-family: 'Oswald', sans-serif;
   font-size: 36px;
@@ -4655,6 +4642,18 @@ h4 {
   font-size: 20px;
   word-break: break-all;
 }
+.row {
+  display: block;
+  width: 101.04166667%;
+  margin-left: -0.52083333%;
+  margin-right: -0.52083333%;
+  margin-bottom: 12px;
+}
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 .inner-wrap {
   margin-right: auto;
   margin-left: auto;
@@ -4667,6 +4666,24 @@ h4 {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
+}
+.vgrid .inner-wrap {
+  background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
+  background-size: 100% auto;
+}
+@media (min-width: 1100px) {
+  .vgrid .inner-wrap {
+    background-size: 1100px auto;
+  }
+}
+.vgrid .inner-wrap.inner-wrap-header {
+  background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
+  background-size: 100% auto;
+}
+@media (min-width: 100%) {
+  .vgrid .inner-wrap.inner-wrap-header {
+    background-size: 100% auto;
+  }
 }
 .region-header-col-1 {
   display: inline;

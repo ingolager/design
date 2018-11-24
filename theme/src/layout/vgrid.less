@@ -8,16 +8,6 @@
 
 // General layout
 
-.row {
-    #desinax-vgrid.row();
-
-    background-color: #0f0;
-    margin-bottom: 12px;
-}
-
-
-// headlines
-
 h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 36px;
@@ -38,6 +28,16 @@ h4 {
     word-break: break-all;
 }
 
+.row {
+    #desinax-vgrid.row();
+
+    // background-color: #0f0;
+    margin-bottom: 12px;
+}
+
+
+// headlines
+
 .inner-wrap {
     #desinax-vgrid.grid(1100px);
 }
@@ -45,6 +45,8 @@ h4 {
 .inner-wrap-header .row {
     max-width: 100%;
 }
+
+
 
 .inner-wrap-header,
 .inner-wrap-footer {
@@ -59,6 +61,16 @@ h4 {
 
 .inner-wrap-header {
     #desinax-vgrid.grid(100%);
+}
+
+.vgrid .inner-wrap {
+    @gridImage: "../img/grid_24x30x10-nomargin.png";
+    //@gridImage: "../img/grid_12x60x20-nomargin.png";
+    #desinax-vgrid.showGrid(@gridImage, 1100px);
+
+    &.inner-wrap-header {
+        #desinax-vgrid.showGrid(@gridImage);
+    }
 }
 
 .region-header-col-1 {
