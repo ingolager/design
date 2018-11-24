@@ -4546,6 +4546,42 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   right: 0;
 }
 /**
+ * Import the typographic grid.
+ */
+/**
+ * Typographic font families to choose from.
+ */
+/**
+ * Typographic defaults.
+ */
+#desinax-hgrid {
+  /**
+     * Mixins used when setting default fonts
+     */
+  /**
+     * Settings for headings H1-H6
+     */
+  /**
+     * Text elements
+     */
+  /**
+     * Display source code.
+     */
+  /**
+     * Lists
+     */
+  /**
+     * Tables. Because of the need for padding on TH and TD, the vertical rhythm
+     * on table cells has to be 1.5*@magic-number.
+     */
+  /**
+     * More typography elements
+     */
+  /**
+     * Enable all default typographic elements.
+     */
+}
+/**
  * Base style to affect HTML elements on a general scale.
  */
 /**
@@ -4768,6 +4804,12 @@ h4 {
 }
 figure {
   display: table;
+}
+figure.figure.right {
+  float: right;
+}
+figure.figure.left {
+  float: left;
 }
 figure.figure figcaption {
   display: table-caption;
