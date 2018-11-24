@@ -44,12 +44,11 @@
 
 
 
-// Activate the grid base font
-body {
-    #desinax-hgrid.font(@fontSizeBody);
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
 }
-
-
 
 /**
  * Base style to affect HTML elements on a general scale.
@@ -104,3 +103,11 @@ body {
  */
  @bgColorHtml: #fff;
  @bgColorBody: #fff;
+
+ @magicNumber:  24px;  // 22px
+ @fontSizeBody: 16px;
+
+ // Default font-families
+ @fontFamilyHeadings: "serif";
+ @fontFamilyBody:     "sans-serif";
+ @fontFamilyCode:     "monospace";
