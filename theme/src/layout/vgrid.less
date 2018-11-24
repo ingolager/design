@@ -11,7 +11,7 @@
 .row {
     #desinax-vgrid.row();
 
-    // background-color: #0f0;
+    background-color: #0f0;
     margin-bottom: 12px;
 }
 
@@ -27,8 +27,8 @@ h1 {
 h3 {
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
-    margin-top: 0;
-    padding-top: 26px;
+    // margin-top: 0;
+    // padding-top: 26px;
     word-break: break-all;
 }
 
@@ -38,14 +38,31 @@ h4 {
     word-break: break-all;
 }
 
+.inner-wrap {
+    #desinax-vgrid.grid(1100px);
+}
+
+.inner-wrap-header .row {
+    max-width: 100%;
+}
+
+.inner-wrap-header,
+.inner-wrap-footer {
+    // #desinax-vgrid.grid(100%);
+}
+
 // header layout
 
+.outer-wrap-header {
+    // #desinax-vgrid.grid(100%);
+}
+
 .inner-wrap-header {
-     // max-width: 100%;
+    #desinax-vgrid.grid(100%);
 }
 
 .region-header-col-1 {
-     #desinax-vgrid.column(5);
+    #desinax-vgrid.column(5);
      // width: 20%;
      // float: left;
 }
@@ -64,8 +81,8 @@ h4 {
 }
 
 .region-header-col-2 li a {
-     color: #483D8B;
-     text-decoration: none;
+    color: #483D8B;
+    text-decoration: none;
 }
 
 .region-header-col-2 li a:hover {
@@ -74,7 +91,7 @@ h4 {
 
 .region-header-col-3 {
     #desinax-vgrid.column(3);
-    display: none;
+    // display: none;
 }
 
 .site-logo {
@@ -101,7 +118,7 @@ h4 {
 }
 
 .my-navbar {
-    list-style-type: none;
+    // list-style-type: none;
     display: inline;
      // float: left;
 }
@@ -123,7 +140,7 @@ h4 {
 
 // flash layout
 
-.inner-wrap-flash {
+.outer-wrap-flash {
      // max-width: 100%;
 }
 
@@ -131,14 +148,14 @@ h4 {
 
 .inner-wrap-main {
      // max-width: 100%;
-    overflow: auto;
+    // overflow: auto;
 }
 
 .region-main {
-     #desinax-vgrid.column(20);
+     #desinax-vgrid.column(24);
      // width: 80%;
      // margin-left: 12%;
-    overflow: auto;
+    // overflow: auto;
 }
 
 figure {
@@ -177,8 +194,8 @@ figure.figure figcaption {
 }
 
 .inner-wrap-footer {
-    margin-right: auto;
-    margin-left: auto;
+    // margin-right: auto;
+    // margin-left: auto;
      // max-width: 100%;
     background-color: #ffffe0;
 }
@@ -255,12 +272,12 @@ figure.figure figcaption {
 }
 
 .region-sidebar-right {
-    #desinax-vgrid.column(4);
+    #desinax-vgrid.column(8);
     // float: left;
     // width: 15%;
 
     &.has-sidebar-left {
-    #desinax-vgrid.column(5);
+    #desinax-vgrid.column(6);
      // width: 20%;
     }
 }

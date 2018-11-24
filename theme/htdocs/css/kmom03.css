@@ -4584,22 +4584,10 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 html {
   overflow-y: scroll;
   background-color: #fff;
-  font-size: 100%;
 }
 body {
-  width: 90%;
-  margin: auto;
-  padding: 0;
   color: #333;
   background-color: #fff;
-}
-.inner-wrap {
-  width: 100%;
-  margin: 0 auto;
-}
-img {
-  max-width: 100%;
-  height: auto;
 }
 /**
  * Import the vertical grid.
@@ -4644,6 +4632,7 @@ img {
   width: 101.04166667%;
   margin-left: -0.52083333%;
   margin-right: -0.52083333%;
+  background-color: #0f0;
   margin-bottom: 12px;
 }
 .row::after {
@@ -4659,14 +4648,25 @@ h1 {
 h3 {
   font-family: 'Oswald', sans-serif;
   font-size: 20px;
-  margin-top: 0;
-  padding-top: 26px;
   word-break: break-all;
 }
 h4 {
   font-family: 'Oswald', sans-serif;
   font-size: 20px;
   word-break: break-all;
+}
+.inner-wrap {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1100px;
+}
+.inner-wrap-header .row {
+  max-width: 100%;
+}
+.inner-wrap-header {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
 }
 .region-header-col-1 {
   display: inline;
@@ -4700,7 +4700,6 @@ h4 {
   width: 11.45833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  display: none;
 }
 .site-logo {
   display: none;
@@ -4718,7 +4717,6 @@ h4 {
   text-align: center;
 }
 .my-navbar {
-  list-style-type: none;
   display: inline;
 }
 #rm-menu {
@@ -4730,16 +4728,12 @@ h4 {
 .rm-mobile li {
   font-family: 'Open Sans', sans-serif;
 }
-.inner-wrap-main {
-  overflow: auto;
-}
 .region-main {
   display: inline;
   float: left;
-  width: 82.29166667%;
+  width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  overflow: auto;
 }
 figure {
   display: table;
@@ -4755,8 +4749,6 @@ figure.figure figcaption {
   font-size: 14px;
 }
 .inner-wrap-footer {
-  margin-right: auto;
-  margin-left: auto;
   background-color: #ffffe0;
 }
 .footer-column {
@@ -4825,14 +4817,14 @@ figure.figure figcaption {
 .region-sidebar-right {
   display: inline;
   float: left;
-  width: 15.625%;
+  width: 32.29166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
 .region-sidebar-right.has-sidebar-left {
   display: inline;
   float: left;
-  width: 19.79166667%;
+  width: 23.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }

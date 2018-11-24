@@ -4584,22 +4584,10 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 html {
   overflow-y: scroll;
   background-color: #fff;
-  font-size: 100%;
 }
 body {
-  width: 90%;
-  margin: auto;
-  padding: 0;
   color: #333;
   background-color: #fff;
-}
-.inner-wrap {
-  width: 100%;
-  margin: 0 auto;
-}
-img {
-  max-width: 100%;
-  height: auto;
 }
 /**
  * Layout style for general structure of header, navbar, main, footer
