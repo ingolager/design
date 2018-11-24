@@ -4745,6 +4745,20 @@ h4 {
 .rm-mobile li {
   font-family: 'Open Sans', sans-serif;
 }
+.region-flash {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.region-breadcrumb {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
 .region-main {
   display: inline;
   float: left;
@@ -4783,6 +4797,11 @@ figure.figure figcaption {
   text-decoration: underline;
 }
 .site-footer {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
   text-align: center;
 }
 .region-main.has-sidebar-left {
