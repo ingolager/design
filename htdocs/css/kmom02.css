@@ -4584,6 +4584,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 html {
   overflow-y: scroll;
   background-color: #fff;
+  font-size: 100%;
 }
 body {
   color: #333;
@@ -4800,9 +4801,6 @@ figure.figure figcaption {
 .breadcrumb-list a:hover {
   text-decoration: underline;
 }
-/**
- * Layout for responsive style through media queries.
- */
 /**
  * Example on media queries
  */

@@ -64,6 +64,7 @@
 html {
   overflow-y: scroll;
   background-color: #424242;
+  font-size: 100%;
 }
 body {
   color: #333;
@@ -237,9 +238,6 @@ figure.figure.left {
 .wrap-sidebar a:hover {
   text-decoration: underline;
 }
-/**
- * Layout for responsive style through media queries.
- */
 /**
  * Example on media queries
  */
