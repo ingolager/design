@@ -4993,7 +4993,7 @@ hr::after {
  * and other regions of the page including route specific styles.
  */
 /**
- * Layout style for vgrid.
+ * Layout style for kmom04.
  */
 /**
  *
@@ -5151,6 +5151,9 @@ figure.figure figcaption {
 }
 .block p {
   font-size: 14px;
+}
+.inner-wrap-header .row {
+  max-width: 100%;
 }
 .inner-wrap-header {
   margin-right: auto;
