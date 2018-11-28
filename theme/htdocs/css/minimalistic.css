@@ -4644,6 +4644,18 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   font-weight: 400;
   src: local('Hind Regular'), local('Hind-Regular'), url(https://fonts.gstatic.com/s/hind/v8/5aU69_a8oxmIdGl4AQ.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v5/L0x5DF4xlVMF-BfR8bXMIjhLq3o.ttf) format('truetype');
+}
 html {
   overflow-y: scroll;
   background-color: #fff;
@@ -4993,25 +5005,25 @@ hr::after {
  * and other regions of the page including route specific styles.
  */
 /**
- * Layout style for kmom04.
+ * Layout style for theme minimalistic.
  */
 /**
  *
  */
 h1 {
-  font-family: 'Lora', serif;
+  font-family: 'Roboto Mono', serif;
   font-size: 36px;
   margin-bottom: 26px;
   word-break: break-all;
 }
 h3 {
-  font-family: 'Lora', serif;
+  font-family: 'Roboto Mono', serif;
   margin-top: 0;
   padding-top: 26px;
   word-break: break-all;
 }
 h4 {
-  font-family: 'Lora', serif;
+  font-family: 'Roboto Mono', serif;
   font-size: 24px;
   word-break: break-all;
 }
@@ -5032,28 +5044,11 @@ h4 {
   margin-left: auto;
   max-width: 1100px;
 }
-.inner-wrap-header .row {
-  max-width: 100%;
-}
 .inner-wrap-flash .row {
   max-width: 100%;
 }
 .region-flash {
-  display: inline;
-  float: left;
-  width: 98.95833333%;
-  margin-left: 0.52083333%;
-  margin-right: 0.52083333%;
-}
-.region-breadcrumb {
-  display: inline;
-  float: left;
-  width: 98.95833333%;
-  margin-left: 0.52083333%;
-  margin-right: 0.52083333%;
-}
-.inner-wrap-main .row {
-  max-width: 100%;
+  display: none;
 }
 .region-main {
   display: inline;
@@ -5062,6 +5057,7 @@ h4 {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 8.85416667%;
+  margin-top: 48px;
 }
 .region-main.has-sidebar {
   margin-left: 0.52083333%;
@@ -5091,7 +5087,7 @@ h4 {
 }
 .region-sidebar-right {
   margin-left: 4.6875%;
-  margin-top: 24px;
+  margin-top: 72px;
 }
 .region-sidebar-left.has-sidebar-right {
   display: inline;
@@ -5099,7 +5095,7 @@ h4 {
   width: 15.625%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  margin-top: 48px;
+  margin-top: 72px;
 }
 .region-sidebar-right.has-sidebar-left {
   display: inline;
@@ -5127,6 +5123,16 @@ h4 {
 .region-sidebar-left a:hover {
   text-decoration: underline;
 }
+.region-breadcrumb {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.inner-wrap-main .row {
+  max-width: 100%;
+}
 .breadcrumb-list ul {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -5140,9 +5146,15 @@ h4 {
 .breadcrumb-list a:hover {
   text-decoration: underline;
 }
+article {
+  background-color: #d3d3d3;
+  border-radius: 10px;
+  padding: 0 10px;
+}
 figure {
   display: table;
   margin: 0;
+  border-radius: 10px;
 }
 figure.figure figcaption {
   display: table-caption;
@@ -5169,12 +5181,12 @@ figure.figure figcaption {
   margin-left: 4.6875%;
 }
 .site-logo-text {
-  font-family: 'Black And White Picture', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 72px;
-  line-height: 72px;
+  line-height: 76px;
 }
 .site-logo-text a {
-  color: #c71585;
+  color: #696969;
   text-decoration: none;
 }
 .region-header-col-2 {
@@ -5203,25 +5215,25 @@ figure.figure figcaption {
   float: left;
 }
 .my-navbar li {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   background-color: #fff;
   padding-top: 42px;
 }
 .my-navbar li a {
   padding: 0 2em 0 0;
-  color: #483D8B;
+  color: #696969;
   text-decoration: none;
 }
 .my-navbar li a:hover {
   text-decoration: none;
-  color: #c71585;
+  color: #d3d3d3;
 }
 .rm-desktop ul li {
   padding-top: 0;
 }
 #rm-menu {
-  background-color: #c71585;
+  background-color: #696969;
 }
 #rm-menu-button.rm-clicked {
   color: #ffffe0;
@@ -5233,7 +5245,8 @@ figure.figure figcaption {
   border: 2px;
 }
 .inner-wrap-footer {
-  background-color: #ffffe0;
+  background-color: #d3d3d3;
+  border-radius: 10px;
 }
 .inner-wrap-footer .row {
   max-width: 100%;
