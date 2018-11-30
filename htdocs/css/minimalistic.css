@@ -4612,13 +4612,13 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   font-family: 'Black And White Picture';
   font-style: normal;
   font-weight: 400;
-  src: local('Black And White Picture Regular'), local('BlackAndWhitePicture-Regular'), url(https://fonts.gstatic.com/s/blackandwhitepicture/v4/TwMe-JAERlQd3ooUHBUXGmrmioKjjnRSFO-NqL5AZ8c.ttf) format('truetype');
+  src: local('Black And White Picture Regular'), local('BlackAndWhitePicture-Regular'), url(https://fonts.gstatic.com/s/blackandwhitepicture/v5/TwMe-JAERlQd3ooUHBUXGmrmioKjjnRSFO-NqL5AZ8c.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Black And White Picture';
   font-style: normal;
   font-weight: 400;
-  src: local('Black And White Picture Regular'), local('BlackAndWhitePicture-Regular'), url(https://fonts.gstatic.com/s/blackandwhitepicture/v4/TwMe-JAERlQd3ooUHBUXGmrmioKjjnRSFO-NqL5AZ8c.ttf) format('truetype');
+  src: local('Black And White Picture Regular'), local('BlackAndWhitePicture-Regular'), url(https://fonts.gstatic.com/s/blackandwhitepicture/v5/TwMe-JAERlQd3ooUHBUXGmrmioKjjnRSFO-NqL5AZ8c.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Open Sans';
@@ -5019,18 +5019,21 @@ hr::after {
 h1 {
   font-family: 'Roboto Mono', serif;
   font-size: 36px;
+  color: #755A31;
   margin-bottom: 26px;
   word-break: break-all;
 }
 h3 {
   font-family: 'Roboto Mono', serif;
   margin-top: 0;
+  color: #755A31;
   padding-top: 26px;
   word-break: break-all;
 }
 h4 {
   font-family: 'Roboto Mono', serif;
   font-size: 24px;
+  color: #755A31;
   word-break: break-all;
 }
 .row {
@@ -5095,6 +5098,12 @@ h4 {
   margin-left: 4.6875%;
   margin-top: 72px;
 }
+.region-sidebar-right a {
+  color: #755A31;
+}
+.region-sidebar-right a:hover {
+  color: #EDB663;
+}
 .region-sidebar-left.has-sidebar-right {
   display: inline;
   float: left;
@@ -5124,14 +5133,14 @@ h4 {
 }
 .region-sidebar-left a {
   font-size: 14px;
-  color: #696969;
+  color: #755A31;
   text-decoration: none;
 }
 .region-sidebar-left a:hover {
-  color: #d3d3d3;
+  color: #EDB663;
   text-decoration: none;
 }
-.region-sidebar-right a {
+.region-sidebar-left a {
   color: #333;
   text-decoration: underline;
 }
@@ -5151,19 +5160,19 @@ h4 {
   text-decoration: none;
 }
 .breadcrumb-list a {
-  color: #696969;
+  color: #755A31;
   text-decoration: none;
 }
 .breadcrumb-list a:hover {
-  color: #d3d3d3;
+  color: #EDB663;
   text-decoration: none;
 }
 .next-previous a {
-  color: #696969;
+  color: #755A31;
   text-decoration: none;
 }
 .next-previous a:hover {
-  color: #d3d3d3;
+  color: #EDB663;
   text-decoration: none;
 }
 article {
@@ -5206,7 +5215,7 @@ figure.figure figcaption {
   line-height: 76px;
 }
 .site-logo-text a {
-  color: #696969;
+  color: #755A31;
   text-decoration: none;
 }
 .region-header-col-2 {
@@ -5242,21 +5251,21 @@ figure.figure figcaption {
 }
 .my-navbar li a {
   padding: 0 2em 0 0;
-  color: #696969;
+  color: #755A31;
   text-decoration: none;
 }
 .my-navbar li a:hover {
   text-decoration: none;
-  color: #d3d3d3;
+  color: #EDB663;
 }
 .rm-desktop ul li {
   padding-top: 0;
 }
 #rm-menu {
-  background-color: #696969;
+  background-color: #755A31;
 }
 #rm-menu-button.rm-clicked {
-  color: #ffffe0;
+  color: #EDB663;
 }
 .rm-mobile li {
   font-family: 'Open Sans', sans-serif;
