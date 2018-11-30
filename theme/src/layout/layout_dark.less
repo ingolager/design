@@ -51,6 +51,7 @@ h4 {
 
 .region-flash {
     #desinax-vgrid.column(@columns);
+    display:none;
 }
 
 // main layout
@@ -88,7 +89,7 @@ h4 {
 
 .region-sidebar-right {
     #desinax-vgrid.push(1);
-    margin-top: 24px;
+    margin-top: 72px;
 }
 
 .region-sidebar-left.has-sidebar-right {
@@ -111,12 +112,13 @@ h4 {
 }
 
 .region-sidebar-left a {
-    color: #c71585;
+    color: @color-primary-4;
     text-decoration: none;
 }
 
 .region-sidebar-left a:hover {
-    text-decoration: underline;
+    color: @color-secondary-1-4;
+    text-decoration: none;
 }
 
 .breadcrumb-list ul {
@@ -127,12 +129,23 @@ h4 {
 }
 
 .breadcrumb-list a {
-    color: black;
+    color: @color-primary-4;
     text-decoration: none;
 }
 
 .breadcrumb-list a:hover {
-    text-decoration: underline;
+    color: @color-secondary-1-4;
+    text-decoration: none;
+}
+
+.next-previous a {
+    color: @color-primary-4;
+    text-decoration: none;
+}
+
+.next-previous a:hover {
+    color: @color-secondary-1-4;
+    text-decoration: none;
 }
 
 figure {
@@ -148,4 +161,14 @@ figure.figure figcaption {
 
 .block p {
     font-size: 14px;
+}
+
+.block p a {
+    color: @color-primary-4;
+    text-decoration: none;
+}
+
+.block p a:hover {
+    color: @color-secondary-1-4;
+    text-decoration: none;
 }

@@ -4651,7 +4651,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  color: #333;
+  color: #D35E00;
   background-color: #410202;
   font: 16px/1.5 "sans-serif";
   font-family: 'Hind';
@@ -4993,7 +4993,7 @@ hr::after {
  * and other regions of the page including route specific styles.
  */
 /**
- * Layout style for kmom04.
+ * Layout style for theme dark.
  */
 /**
  *
@@ -5044,6 +5044,7 @@ h4 {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  display: none;
 }
 .region-breadcrumb {
   display: inline;
@@ -5091,7 +5092,7 @@ h4 {
 }
 .region-sidebar-right {
   margin-left: 4.6875%;
-  margin-top: 24px;
+  margin-top: 72px;
 }
 .region-sidebar-left.has-sidebar-right {
   display: inline;
@@ -5121,11 +5122,12 @@ h4 {
   list-style-type: none;
 }
 .region-sidebar-left a {
-  color: #c71585;
+  color: #D30000;
   text-decoration: none;
 }
 .region-sidebar-left a:hover {
-  text-decoration: underline;
+  color: #D35E00;
+  text-decoration: none;
 }
 .breadcrumb-list ul {
   font-family: 'Open Sans', sans-serif;
@@ -5134,11 +5136,20 @@ h4 {
   text-decoration: none;
 }
 .breadcrumb-list a {
-  color: black;
+  color: #D30000;
   text-decoration: none;
 }
 .breadcrumb-list a:hover {
-  text-decoration: underline;
+  color: #D35E00;
+  text-decoration: none;
+}
+.next-previous a {
+  color: #D30000;
+  text-decoration: none;
+}
+.next-previous a:hover {
+  color: #D35E00;
+  text-decoration: none;
 }
 figure {
   display: table;
@@ -5151,6 +5162,14 @@ figure.figure figcaption {
 }
 .block p {
   font-size: 14px;
+}
+.block p a {
+  color: #D30000;
+  text-decoration: none;
+}
+.block p a:hover {
+  color: #D35E00;
+  text-decoration: none;
 }
 .inner-wrap-header .row {
   max-width: 100%;
@@ -5174,7 +5193,7 @@ figure.figure figcaption {
   line-height: 86px;
 }
 .site-logo-text a {
-  color: #c71585;
+  color: #D30000;
   text-decoration: none;
 }
 .region-header-col-2 {
@@ -5205,26 +5224,26 @@ figure.figure figcaption {
 .my-navbar li {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
-  background-color: #fff;
+  background-color: #410202;
   padding-top: 42px;
 }
 .my-navbar li a {
   padding: 0 2em 0 0;
-  color: #483D8B;
+  color: #D30000;
   text-decoration: none;
 }
 .my-navbar li a:hover {
   text-decoration: none;
-  color: #c71585;
+  color: #D35E00;
 }
 .rm-desktop ul li {
   padding-top: 0;
 }
 #rm-menu {
-  background-color: #c71585;
+  background-color: #410202;
 }
 #rm-menu-button.rm-clicked {
-  color: #ffffe0;
+  color: #D35E00;
 }
 .rm-mobile li {
   font-family: 'Open Sans', sans-serif;
@@ -5233,7 +5252,7 @@ figure.figure figcaption {
   border: 2px;
 }
 .outer-wrap-footer {
-  background-color: #ffffe0;
+  background-color: #34011D;
 }
 .inner-wrap-footer .row {
   max-width: 100%;
@@ -5250,11 +5269,12 @@ figure.figure figcaption {
   font-size: 16px;
 }
 .footer-column a {
-  color: #c71585;
+  color: #D30000;
   text-decoration: none;
 }
 .footer-column a:hover {
-  text-decoration: underline;
+  color: #D35E00;
+  text-decoration: none;
 }
 .site-footer {
   display: inline;
@@ -5267,7 +5287,6 @@ figure.figure figcaption {
 .block.site-footer p {
   font-family: 'Hind';
   font-size: 16px;
-  margin-top: 24px;
 }
 @media screen and (max-width: 1030px) {
   .region-main {
