@@ -5248,6 +5248,7 @@ figure.figure figcaption {
 .rm-mobile li {
   font-family: 'Open Sans', sans-serif;
   text-align: left;
+  color: #D30000;
   padding-left: 100px;
   border: 2px;
 }
