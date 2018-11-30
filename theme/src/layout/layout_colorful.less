@@ -18,13 +18,14 @@ h1 {
 h3 {
     font-family: 'Lora', serif;
     margin-top: 0;
-    padding-top: 26px;
+    padding top: 26px;
     word-break: break-all;
 }
 
 h4 {
     font-family: 'Lora', serif;
     font-size: 24px;
+    padding-left: 12px;
     word-break: break-all;
 }
 
@@ -57,6 +58,9 @@ h4 {
     #desinax-vgrid.column(@columns);
 }
 
+.inner-wrap-main {
+}
+
 .inner-wrap-main .row {
     max-width: 100%;
 }
@@ -82,6 +86,7 @@ h4 {
 .region-sidebar-left,
 .region-sidebar-right {
     #desinax-vgrid.column(@columns * 1 / 4);
+    background-color: @color-primary-1;
 }
 
 .region-sidebar-right {
@@ -106,15 +111,18 @@ h4 {
 
 .region-sidebar-left ul {
     list-style-type: none;
+    padding-right: 12px;
 }
 
 .region-sidebar-left a {
-    color: #c71585;
+    font-size: 14px;
+    color: @color-secondary-2-4;
     text-decoration: none;
 }
 
 .region-sidebar-left a:hover {
-    text-decoration: underline;
+    color: @color-secondary-2-2;
+    text-decoration: none;
 }
 
 .breadcrumb-list ul {
@@ -125,17 +133,40 @@ h4 {
 }
 
 .breadcrumb-list a {
-    color: black;
+    color: @color-secondary-2-4;
     text-decoration: none;
 }
 
 .breadcrumb-list a:hover {
-    text-decoration: underline;
+    color: @color-secondary-2-2;
+    text-decoration: none;
+}
+
+.next-previous a {
+    color: @color-secondary-2-4;
+    text-decoration: none;
+}
+
+.next-previous a:hover {
+    color: @color-secondary-2-2;
+    text-decoration: none;
+}
+
+article {
+    padding: 0 12px;
+    background-color: @color-secondary-2-1;
+    border: 2px;
+    border-color: @color-secondary-2-4;
+}
+
+article h4 {
+    padding-left: 0;
 }
 
 figure {
     display: table;
     margin: 0;
+    padding: 12px 12px 0;
 }
 
 figure.figure figcaption {
@@ -146,4 +177,15 @@ figure.figure figcaption {
 
 .block p {
     font-size: 14px;
+    padding-left: 12px;
+}
+
+.block p a {
+    color: @color-secondary-2-4;
+    text-decoration: none;
+}
+
+.block p a:hover {
+    color: @color-secondary-2-2;
+    text-decoration: none;
 }

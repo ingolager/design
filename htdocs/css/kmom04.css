@@ -5171,7 +5171,7 @@ figure.figure figcaption {
 .site-logo-text {
   font-family: 'Black And White Picture', sans-serif;
   font-size: 72px;
-  line-height: 72px;
+  line-height: 86px;
 }
 .site-logo-text a {
   color: #c71585;
@@ -5232,7 +5232,7 @@ figure.figure figcaption {
   padding-left: 100px;
   border: 2px;
 }
-.inner-wrap-footer {
+.outer-wrap-footer {
   background-color: #ffffe0;
 }
 .inner-wrap-footer .row {
