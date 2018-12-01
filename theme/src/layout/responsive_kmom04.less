@@ -2,6 +2,14 @@
 //  * Layout for responsive style through media queries.
 //  */
 //
+
+@media screen and (max-width: 1210px) {
+    .region-header-col-1,
+    .region-header-col-2 {
+        #desinax-vgrid.column(@columns - 3);
+    }
+}
+
 @media screen and (max-width: 1030px) {
     .region-main {
         #desinax-vgrid.column(@columns);
@@ -25,11 +33,6 @@
         #desinax-vgrid.column(@columns);
     }
 
-    .region-header-col-1,
-    .region-header-col-2 {
-        #desinax-vgrid.column(@columns - 3);
-    }
-
     .region-sidebar-left figure {
         display: none;
     }
@@ -38,19 +41,26 @@
         max-width: 50%;
         height: auto;
     }
+
+
+    h1 {
+        font-size: 28px;
+    }
 }
 
-@media screen and (max-width: 850px) {
-    .region-main.has-sidebar-right {
-        #desinax-vgrid.column(@columns);
-    }
-
+@media screen and (max-width: 925px) {
     .region-header-col-2 {
         display: none;
     }
 
     .region-header-col-3 {
         display: grid;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .region-main.has-sidebar-right {
+        #desinax-vgrid.column(@columns);
     }
 
     .region-sidebar-left {
@@ -73,7 +83,7 @@
 }
 
 @media screen and (max-width: 485px) {
-    h1, h2 {
+    h1 {
         font-size: 20px;
     }
 

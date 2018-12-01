@@ -5314,6 +5314,16 @@ figure.figure figcaption {
   font-size: 16px;
   margin-top: 24px;
 }
+@media screen and (max-width: 1210px) {
+  .region-header-col-1,
+  .region-header-col-2 {
+    display: inline;
+    float: left;
+    width: 86.45833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+}
 @media screen and (max-width: 1030px) {
   .region-main {
     display: inline;
@@ -5351,20 +5361,23 @@ figure.figure figcaption {
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
   }
-  .region-header-col-1,
-  .region-header-col-2 {
-    display: inline;
-    float: left;
-    width: 86.45833333%;
-    margin-left: 0.52083333%;
-    margin-right: 0.52083333%;
-  }
   .region-sidebar-left figure {
     display: none;
   }
   figure {
     max-width: 50%;
     height: auto;
+  }
+  h1 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 925px) {
+  .region-header-col-2 {
+    display: none;
+  }
+  .region-header-col-3 {
+    display: grid;
   }
 }
 @media screen and (max-width: 850px) {
@@ -5374,12 +5387,6 @@ figure.figure figcaption {
     width: 98.95833333%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
-  }
-  .region-header-col-2 {
-    display: none;
-  }
-  .region-header-col-3 {
-    display: grid;
   }
   .region-sidebar-left {
     display: inline;
@@ -5408,8 +5415,7 @@ figure.figure figcaption {
   }
 }
 @media screen and (max-width: 485px) {
-  h1,
-  h2 {
+  h1 {
     font-size: 20px;
   }
   figure {

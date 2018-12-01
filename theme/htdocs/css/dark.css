@@ -4651,7 +4651,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  color: #D35E00;
+  color: #FF9E50;
   background-color: #410202;
   font: 16px/1.5 "sans-serif";
   font-family: 'Hind';
@@ -5122,11 +5122,11 @@ h4 {
   list-style-type: none;
 }
 .region-sidebar-left a {
-  color: #D30000;
+  color: #83C500;
   text-decoration: none;
 }
 .region-sidebar-left a:hover {
-  color: #D35E00;
+  color: #619100;
   text-decoration: none;
 }
 .breadcrumb-list ul {
@@ -5136,19 +5136,19 @@ h4 {
   text-decoration: none;
 }
 .breadcrumb-list a {
-  color: #D30000;
+  color: #83C500;
   text-decoration: none;
 }
 .breadcrumb-list a:hover {
-  color: #D35E00;
+  color: #619100;
   text-decoration: none;
 }
 .next-previous a {
-  color: #D30000;
+  color: #83C500;
   text-decoration: none;
 }
 .next-previous a:hover {
-  color: #D35E00;
+  color: #619100;
   text-decoration: none;
 }
 figure {
@@ -5164,11 +5164,11 @@ figure.figure figcaption {
   font-size: 14px;
 }
 .block p a {
-  color: #D30000;
+  color: #83C500;
   text-decoration: none;
 }
 .block p a:hover {
-  color: #D35E00;
+  color: #619100;
   text-decoration: none;
 }
 .inner-wrap-header .row {
@@ -5193,7 +5193,7 @@ figure.figure figcaption {
   line-height: 86px;
 }
 .site-logo-text a {
-  color: #D30000;
+  color: #83C500;
   text-decoration: none;
 }
 .region-header-col-2 {
@@ -5229,12 +5229,12 @@ figure.figure figcaption {
 }
 .my-navbar li a {
   padding: 0 2em 0 0;
-  color: #D30000;
+  color: #83C500;
   text-decoration: none;
 }
 .my-navbar li a:hover {
   text-decoration: none;
-  color: #D35E00;
+  color: #619100;
 }
 .rm-desktop ul li {
   padding-top: 0;
@@ -5270,11 +5270,11 @@ figure.figure figcaption {
   font-size: 16px;
 }
 .footer-column a {
-  color: #D30000;
+  color: #83C500;
   text-decoration: none;
 }
 .footer-column a:hover {
-  color: #D35E00;
+  color: #619100;
   text-decoration: none;
 }
 .site-footer {
@@ -5288,6 +5288,16 @@ figure.figure figcaption {
 .block.site-footer p {
   font-family: 'Hind';
   font-size: 16px;
+}
+@media screen and (max-width: 1210px) {
+  .region-header-col-1,
+  .region-header-col-2 {
+    display: inline;
+    float: left;
+    width: 86.45833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
 }
 @media screen and (max-width: 1030px) {
   .region-main {
@@ -5326,20 +5336,23 @@ figure.figure figcaption {
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
   }
-  .region-header-col-1,
-  .region-header-col-2 {
-    display: inline;
-    float: left;
-    width: 86.45833333%;
-    margin-left: 0.52083333%;
-    margin-right: 0.52083333%;
-  }
   .region-sidebar-left figure {
     display: none;
   }
   figure {
     max-width: 50%;
     height: auto;
+  }
+  h1 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 925px) {
+  .region-header-col-2 {
+    display: none;
+  }
+  .region-header-col-3 {
+    display: grid;
   }
 }
 @media screen and (max-width: 850px) {
@@ -5349,12 +5362,6 @@ figure.figure figcaption {
     width: 98.95833333%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
-  }
-  .region-header-col-2 {
-    display: none;
-  }
-  .region-header-col-3 {
-    display: grid;
   }
   .region-sidebar-left {
     display: inline;
@@ -5383,8 +5390,7 @@ figure.figure figcaption {
   }
 }
 @media screen and (max-width: 485px) {
-  h1,
-  h2 {
+  h1 {
     font-size: 20px;
   }
   figure {
