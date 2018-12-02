@@ -21,4 +21,8 @@ Done with kmom02, with LESS stylesheets and responsitivity.
 
 v 3.0.0 (2018-11-26)
 ----------------------
-Don with kmom03, implemented grid layout on whole website.
+Done with kmom03, implemented grid layout on whole website.
+
+v.4.0.0 (2018-12-02)
+----------------------
+Done with kmom4, with three different layouts in different colors.

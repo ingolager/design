@@ -1,5 +1,5 @@
 /*!
- * Stylesheet for design dark.
+ * Stylesheet for design 04_minimalistic.
  *
  * This stylesheet is for the design course and kmom02 where we use LESS.
  */
@@ -4644,17 +4644,35 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   font-weight: 400;
   src: local('Hind Regular'), local('Hind-Regular'), url(https://fonts.gstatic.com/s/hind/v8/5aU69_a8oxmIdGl4AQ.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v5/L0x5DF4xlVMF-BfR8bXMIjhLq3o.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Muli Regular'), local('Muli-Regular'), url(https://fonts.gstatic.com/s/muli/v12/7Auwp_0qiz-afTLGKA.ttf) format('truetype');
+}
 html {
   overflow-y: scroll;
-  background-color: #410202;
+  background-color: #fff;
 }
 body {
   margin: 0;
   padding: 0;
-  color: #FF9E50;
-  background-color: #410202;
+  color: #333;
+  background-color: #fff;
   font: 16px/1.5 "sans-serif";
-  font-family: 'Hind';
+  font-family: 'Muli';
 }
 img {
   max-width: 100%;
@@ -4666,7 +4684,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "serif";
+  font-family: "sans-serif";
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -4993,26 +5011,29 @@ hr::after {
  * and other regions of the page including route specific styles.
  */
 /**
- * Layout style for theme dark.
+ * Layout style for theme minimalistic.
  */
 /**
  *
  */
 h1 {
-  font-family: 'Lora', serif;
+  font-family: 'Roboto Mono', serif;
   font-size: 36px;
+  color: #755A31;
   margin-bottom: 26px;
   word-break: break-all;
 }
 h3 {
-  font-family: 'Lora', serif;
+  font-family: 'Roboto Mono', serif;
   margin-top: 0;
+  color: #755A31;
   padding-top: 26px;
   word-break: break-all;
 }
 h4 {
-  font-family: 'Lora', serif;
+  font-family: 'Roboto Mono', serif;
   font-size: 24px;
+  color: #755A31;
   word-break: break-all;
 }
 .row {
@@ -5032,29 +5053,11 @@ h4 {
   margin-left: auto;
   max-width: 1100px;
 }
-.inner-wrap-header .row {
-  max-width: 100%;
-}
 .inner-wrap-flash .row {
   max-width: 100%;
 }
 .region-flash {
-  display: inline;
-  float: left;
-  width: 98.95833333%;
-  margin-left: 0.52083333%;
-  margin-right: 0.52083333%;
   display: none;
-}
-.region-breadcrumb {
-  display: inline;
-  float: left;
-  width: 98.95833333%;
-  margin-left: 0.52083333%;
-  margin-right: 0.52083333%;
-}
-.inner-wrap-main .row {
-  max-width: 100%;
 }
 .region-main {
   display: inline;
@@ -5063,6 +5066,7 @@ h4 {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 8.85416667%;
+  margin-top: 48px;
 }
 .region-main.has-sidebar {
   margin-left: 0.52083333%;
@@ -5094,13 +5098,19 @@ h4 {
   margin-left: 4.6875%;
   margin-top: 72px;
 }
+.region-sidebar-right a {
+  color: #755A31;
+}
+.region-sidebar-right a:hover {
+  color: #EDB663;
+}
 .region-sidebar-left.has-sidebar-right {
   display: inline;
   float: left;
   width: 15.625%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  margin-top: 48px;
+  margin-top: 72px;
 }
 .region-sidebar-right.has-sidebar-left {
   display: inline;
@@ -5122,38 +5132,58 @@ h4 {
   list-style-type: none;
 }
 .region-sidebar-left a {
-  color: #FF9E50;
+  font-size: 14px;
+  color: #755A31;
   text-decoration: none;
 }
 .region-sidebar-left a:hover {
-  color: #9B4500;
+  color: #EDB663;
   text-decoration: none;
 }
+.region-sidebar-left a {
+  color: #333;
+  text-decoration: underline;
+}
+.region-breadcrumb {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.inner-wrap-main .row {
+  max-width: 100%;
+}
 .breadcrumb-list ul {
-  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   list-style-type: none;
   text-decoration: none;
 }
 .breadcrumb-list a {
-  color: #FF9E50;
+  color: #755A31;
   text-decoration: none;
 }
 .breadcrumb-list a:hover {
-  color: #9B4500;
+  color: #EDB663;
   text-decoration: none;
 }
 .next-previous a {
-  color: #FF9E50;
+  color: #755A31;
   text-decoration: none;
 }
 .next-previous a:hover {
-  color: #9B4500;
+  color: #EDB663;
   text-decoration: none;
+}
+article {
+  background-color: #d3d3d3;
+  border-radius: 10px;
+  padding: 0 10px;
 }
 figure {
   display: table;
   margin: 0;
+  border-radius: 10px;
 }
 figure.figure figcaption {
   display: table-caption;
@@ -5162,14 +5192,6 @@ figure.figure figcaption {
 }
 .block p {
   font-size: 14px;
-}
-p a {
-  color: #a4ffff;
-  text-decoration: none;
-}
-p a:hover {
-  color: #008282;
-  text-decoration: none;
 }
 .inner-wrap-header .row {
   max-width: 100%;
@@ -5188,12 +5210,12 @@ p a:hover {
   margin-left: 4.6875%;
 }
 .site-logo-text {
-  font-family: 'Black And White Picture', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 72px;
-  line-height: 86px;
+  line-height: 76px;
 }
 .site-logo-text a {
-  color: #D30000;
+  color: #755A31;
   text-decoration: none;
 }
 .region-header-col-2 {
@@ -5222,38 +5244,38 @@ p a:hover {
   float: left;
 }
 .my-navbar li {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
-  background-color: #410202;
+  background-color: #fff;
   padding-top: 42px;
 }
 .my-navbar li a {
   padding: 0 2em 0 0;
-  color: #FF9E50;
+  color: #755A31;
   text-decoration: none;
 }
 .my-navbar li a:hover {
   text-decoration: none;
-  color: #9B4500;
+  color: #EDB663;
 }
 .rm-desktop ul li {
   padding-top: 0;
 }
 #rm-menu {
-  background-color: #410202;
+  background-color: #755A31;
 }
 #rm-menu-button.rm-clicked {
-  color: #D35E00;
+  color: #EDB663;
 }
 .rm-mobile li {
   font-family: 'Open Sans', sans-serif;
   text-align: left;
-  color: #D30000;
   padding-left: 100px;
   border: 2px;
 }
-.outer-wrap-footer {
-  background-color: #34011D;
+.inner-wrap-footer {
+  background-color: #d3d3d3;
+  border-radius: 10px;
 }
 .inner-wrap-footer .row {
   max-width: 100%;
@@ -5261,21 +5283,23 @@ p a:hover {
 .footer-column {
   display: inline;
   float: left;
-  width: 32.29166667%;
+  width: 28.125%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  padding: 0 10px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
 }
 .footer-column-x p {
-  font-family: 'Hind';
+  font-family: 'Muli';
   font-size: 16px;
 }
 .footer-column a {
-  color: #a4ffff;
+  color: #fff;
   text-decoration: none;
 }
 .footer-column a:hover {
-  color: #008282;
-  text-decoration: none;
+  text-decoration: underline;
 }
 .site-footer {
   display: inline;
@@ -5286,8 +5310,9 @@ p a:hover {
   text-align: center;
 }
 .block.site-footer p {
-  font-family: 'Hind';
+  font-family: 'Muli';
   font-size: 16px;
+  margin-top: 24px;
 }
 @media screen and (max-width: 1210px) {
   .region-header-col-1,
@@ -5433,16 +5458,5 @@ p a:hover {
  * A responsive menu.
  */
 /**
-* My own settings, not currently in their own module.
-*/
-/* LESS - http://lesscss.org style sheet */
-/* Palette color codes */
-/* Palette URL: http://paletton.com/#uid=5000t0kFccSvg88DJ9VBOjtEyqu */
-/* Feel free to copy&paste color codes to your application */
-/* MIXINS */
-/* As hex codes */
-/* Main Primary color */
-/* Main Secondary color (1) */
-/* Main Secondary color (2) */
-/* Generated by Paletton.com Â© 2002-2014 */
-/* http://paletton.com */
+ * My own settings, not currently in their own module.
+ */

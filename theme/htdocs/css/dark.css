@@ -5122,11 +5122,11 @@ h4 {
   list-style-type: none;
 }
 .region-sidebar-left a {
-  color: #83C500;
+  color: #FF9E50;
   text-decoration: none;
 }
 .region-sidebar-left a:hover {
-  color: #619100;
+  color: #9B4500;
   text-decoration: none;
 }
 .breadcrumb-list ul {
@@ -5136,19 +5136,19 @@ h4 {
   text-decoration: none;
 }
 .breadcrumb-list a {
-  color: #83C500;
+  color: #FF9E50;
   text-decoration: none;
 }
 .breadcrumb-list a:hover {
-  color: #619100;
+  color: #9B4500;
   text-decoration: none;
 }
 .next-previous a {
-  color: #83C500;
+  color: #FF9E50;
   text-decoration: none;
 }
 .next-previous a:hover {
-  color: #619100;
+  color: #9B4500;
   text-decoration: none;
 }
 figure {
@@ -5163,12 +5163,12 @@ figure.figure figcaption {
 .block p {
   font-size: 14px;
 }
-.block p a {
-  color: #83C500;
+p a {
+  color: #a4ffff;
   text-decoration: none;
 }
-.block p a:hover {
-  color: #619100;
+p a:hover {
+  color: #008282;
   text-decoration: none;
 }
 .inner-wrap-header .row {
@@ -5193,7 +5193,7 @@ figure.figure figcaption {
   line-height: 86px;
 }
 .site-logo-text a {
-  color: #83C500;
+  color: #D30000;
   text-decoration: none;
 }
 .region-header-col-2 {
@@ -5229,12 +5229,12 @@ figure.figure figcaption {
 }
 .my-navbar li a {
   padding: 0 2em 0 0;
-  color: #83C500;
+  color: #FF9E50;
   text-decoration: none;
 }
 .my-navbar li a:hover {
   text-decoration: none;
-  color: #619100;
+  color: #9B4500;
 }
 .rm-desktop ul li {
   padding-top: 0;
@@ -5270,11 +5270,11 @@ figure.figure figcaption {
   font-size: 16px;
 }
 .footer-column a {
-  color: #83C500;
+  color: #a4ffff;
   text-decoration: none;
 }
 .footer-column a:hover {
-  color: #619100;
+  color: #008282;
   text-decoration: none;
 }
 .site-footer {

@@ -1,5 +1,5 @@
 /*!
- * Stylesheet for design dark.
+ * Stylesheet for design 04_colorful.
  *
  * This stylesheet is for the design course and kmom02 where we use LESS.
  */
@@ -4646,13 +4646,13 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 html {
   overflow-y: scroll;
-  background-color: #410202;
+  background-color: #FFD275;
 }
 body {
   margin: 0;
   padding: 0;
-  color: #FF9E50;
-  background-color: #410202;
+  color: #333;
+  background-color: #FFD275;
   font: 16px/1.5 "sans-serif";
   font-family: 'Hind';
 }
@@ -4993,7 +4993,7 @@ hr::after {
  * and other regions of the page including route specific styles.
  */
 /**
- * Layout style for theme dark.
+ * Layout style for theme colorful.
  */
 /**
  *
@@ -5007,12 +5007,13 @@ h1 {
 h3 {
   font-family: 'Lora', serif;
   margin-top: 0;
-  padding-top: 26px;
+  paddingtop: 26px;
   word-break: break-all;
 }
 h4 {
   font-family: 'Lora', serif;
   font-size: 24px;
+  padding-left: 12px;
   word-break: break-all;
 }
 .row {
@@ -5032,9 +5033,6 @@ h4 {
   margin-left: auto;
   max-width: 1100px;
 }
-.inner-wrap-header .row {
-  max-width: 100%;
-}
 .inner-wrap-flash .row {
   max-width: 100%;
 }
@@ -5044,7 +5042,6 @@ h4 {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  display: none;
 }
 .region-breadcrumb {
   display: inline;
@@ -5089,10 +5086,11 @@ h4 {
   width: 23.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  background-color: #CAECEF;
 }
 .region-sidebar-right {
   margin-left: 4.6875%;
-  margin-top: 72px;
+  margin-top: 24px;
 }
 .region-sidebar-left.has-sidebar-right {
   display: inline;
@@ -5120,13 +5118,15 @@ h4 {
 }
 .region-sidebar-left ul {
   list-style-type: none;
+  padding-right: 12px;
 }
 .region-sidebar-left a {
-  color: #FF9E50;
+  font-size: 14px;
+  color: #A70800;
   text-decoration: none;
 }
 .region-sidebar-left a:hover {
-  color: #9B4500;
+  color: #FF7B75;
   text-decoration: none;
 }
 .breadcrumb-list ul {
@@ -5136,24 +5136,34 @@ h4 {
   text-decoration: none;
 }
 .breadcrumb-list a {
-  color: #FF9E50;
+  color: #A70800;
   text-decoration: none;
 }
 .breadcrumb-list a:hover {
-  color: #9B4500;
+  color: #FF7B75;
   text-decoration: none;
 }
 .next-previous a {
-  color: #FF9E50;
+  color: #A70800;
   text-decoration: none;
 }
 .next-previous a:hover {
-  color: #9B4500;
+  color: #FF7B75;
   text-decoration: none;
+}
+article {
+  padding: 0 12px;
+  background-color: #FFD9D7;
+  border: 2px;
+  border-color: #A70800;
+}
+article h4 {
+  padding-left: 0;
 }
 figure {
   display: table;
   margin: 0;
+  padding: 12px 12px 0;
 }
 figure.figure figcaption {
   display: table-caption;
@@ -5162,13 +5172,14 @@ figure.figure figcaption {
 }
 .block p {
   font-size: 14px;
+  padding-left: 12px;
 }
 p a {
-  color: #a4ffff;
+  color: #A70800;
   text-decoration: none;
 }
 p a:hover {
-  color: #008282;
+  color: #FF7B75;
   text-decoration: none;
 }
 .inner-wrap-header .row {
@@ -5193,7 +5204,7 @@ p a:hover {
   line-height: 86px;
 }
 .site-logo-text a {
-  color: #D30000;
+  color: #A70800;
   text-decoration: none;
 }
 .region-header-col-2 {
@@ -5224,36 +5235,35 @@ p a:hover {
 .my-navbar li {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
-  background-color: #410202;
+  background-color: #FFD275;
   padding-top: 42px;
 }
 .my-navbar li a {
   padding: 0 2em 0 0;
-  color: #FF9E50;
+  color: #A70800;
   text-decoration: none;
 }
 .my-navbar li a:hover {
   text-decoration: none;
-  color: #9B4500;
+  color: #FF7B75;
 }
 .rm-desktop ul li {
   padding-top: 0;
 }
 #rm-menu {
-  background-color: #410202;
+  background-color: #A70800;
 }
 #rm-menu-button.rm-clicked {
-  color: #D35E00;
+  color: #FFF2D7;
 }
 .rm-mobile li {
   font-family: 'Open Sans', sans-serif;
   text-align: left;
-  color: #D30000;
   padding-left: 100px;
   border: 2px;
 }
 .outer-wrap-footer {
-  background-color: #34011D;
+  background-color: #FFF2D7;
 }
 .inner-wrap-footer .row {
   max-width: 100%;
@@ -5265,16 +5275,20 @@ p a:hover {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
+.footer-column-x h4 {
+  padding-left: 0;
+}
 .footer-column-x p {
   font-family: 'Hind';
   font-size: 16px;
+  padding: 0;
 }
 .footer-column a {
-  color: #a4ffff;
+  color: #A70800;
   text-decoration: none;
 }
 .footer-column a:hover {
-  color: #008282;
+  color: #FF7B75;
   text-decoration: none;
 }
 .site-footer {
@@ -5433,11 +5447,11 @@ p a:hover {
  * A responsive menu.
  */
 /**
-* My own settings, not currently in their own module.
-*/
+ * My own settings, not currently in their own module.
+ */
 /* LESS - http://lesscss.org style sheet */
 /* Palette color codes */
-/* Palette URL: http://paletton.com/#uid=5000t0kFccSvg88DJ9VBOjtEyqu */
+/* Palette URL: http://paletton.com/#uid=33k0u0kpLNR4YVKhnOVH8PpTltz */
 /* Feel free to copy&paste color codes to your application */
 /* MIXINS */
 /* As hex codes */

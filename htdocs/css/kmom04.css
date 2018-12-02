@@ -5161,11 +5161,11 @@ figure.figure figcaption {
 .block p {
   font-size: 14px;
 }
-.block p a {
+p a {
   color: #122661;
   text-decoration: underline;
 }
-.block p a:hover {
+p a:hover {
   color: #586BA5;
   text-decoration: underline;
 }
