@@ -1,0 +1,172 @@
+/**
+ * Layout style for kmom04.
+ */
+
+/**
+ *
+ */
+
+// headlines
+
+h1 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    margin-bottom: 26px;
+    word-break: break-all;
+}
+
+h3 {
+    font-family: 'Lora', serif;
+    margin-top: 0;
+    padding-top: 26px;
+    word-break: break-all;
+}
+
+h4 {
+    font-family: 'Lora', serif;
+    font-size: 24px;
+    word-break: break-all;
+}
+
+// General layout
+
+.row {
+    #desinax-vgrid.row();
+    margin-bottom: 12px;
+}
+
+.inner-wrap {
+    #desinax-vgrid.grid(1100px);
+}
+
+.inner-wrap-header .row {
+    max-width: 100%;
+}
+
+// flash layout
+
+.inner-wrap-flash .row {
+    max-width: 100%;
+}
+
+.region-flash {
+    #desinax-vgrid.column(@columns);
+}
+
+// main layout
+
+.region-breadcrumb {
+    #desinax-vgrid.column(@columns);
+}
+
+.inner-wrap-main .row {
+    max-width: 100%;
+}
+
+.region-main {
+     #desinax-vgrid.column(@columns * 3 / 4);
+     #desinax-vgrid.push(2);
+
+    &.has-sidebar {
+        #desinax-vgrid.push(0);
+    }
+
+    &.has-sidebar-right {
+        #desinax-vgrid.column(@columns * 3 / 4 - 1);
+    }
+
+    &.has-sidebar-left.has-sidebar-right {
+        #desinax-vgrid.column(@columns - 12);
+        #desinax-vgrid.push(1);
+    }
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    #desinax-vgrid.column(@columns * 1 / 4);
+}
+
+.region-sidebar-right {
+    #desinax-vgrid.push(1);
+    margin-top: 24px;
+}
+
+.region-sidebar-left.has-sidebar-right {
+    #desinax-vgrid.column(@columns * 1 / 4 - 2);
+    margin-top: 48px;
+}
+
+.region-sidebar-right.has-sidebar-left {
+    #desinax-vgrid.column(@columns * 1 / 4);
+    #desinax-vgrid.push(1);
+    margin-top: 48px;
+}
+
+.region-main.byline {
+    #desinax-vgrid.column(@columns * 1 / 4);
+}
+
+.region-sidebar-left ul {
+    list-style-type: none;
+}
+
+.region-sidebar-left a {
+    color: @color-secondary-1-4;
+    text-decoration: none;
+}
+
+.region-sidebar-left a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb-list ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.breadcrumb-list a {
+    color: @color-secondary-1-4;
+    text-decoration: underline;
+}
+
+.breadcrumb-list a:hover {
+    color: @color-secondary-1-2;
+    text-decoration: underline;
+}
+
+.next-previous a {
+    color: @color-secondary-1-4;
+    text-decoration: none;
+}
+
+.next-previous a:hover {
+    color: @color-secondary-1-2;
+    text-decoration: none;
+}
+
+figure {
+    display: table;
+    margin: 0;
+}
+
+figure.figure figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    font-size: 14px;
+}
+
+.block p {
+    font-size: 14px;
+}
+
+p a {
+    color: @color-secondary-1-4;
+    text-decoration: underline;
+}
+
+p a:hover {
+    color: @color-secondary-1-2;
+    text-decoration: underline;
+}
