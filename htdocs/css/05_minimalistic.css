@@ -5309,7 +5309,7 @@ figure.figure figcaption {
   font-size: 16px;
   margin-top: 24px;
 }
-@media screen and (max-width: 1210px) {
+@media screen and (max-width: 1222px) {
   .region-header-col-1,
   .region-header-col-2 {
     display: inline;
@@ -5317,6 +5317,9 @@ figure.figure figcaption {
     width: 86.45833333%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
+  }
+  .my-navbar li {
+    padding-top: 0;
   }
 }
 @media screen and (max-width: 1030px) {
@@ -5359,10 +5362,6 @@ figure.figure figcaption {
   .region-sidebar-left figure {
     display: none;
   }
-  figure {
-    max-width: 50%;
-    height: auto;
-  }
   h1 {
     font-size: 28px;
   }
@@ -5374,29 +5373,6 @@ figure.figure figcaption {
   .region-header-col-3 {
     display: grid;
   }
-}
-@media screen and (max-width: 850px) {
-  .region-main.has-sidebar-right {
-    display: inline;
-    float: left;
-    width: 98.95833333%;
-    margin-left: 0.52083333%;
-    margin-right: 0.52083333%;
-  }
-  .region-sidebar-left {
-    display: inline;
-    float: left;
-    width: 98.95833333%;
-    margin-left: 0.52083333%;
-    margin-right: 0.52083333%;
-  }
-  .region-sidebar-right {
-    display: inline;
-    float: left;
-    width: 98.95833333%;
-    margin-right: 0.52083333%;
-    margin-left: 0.52083333%;
-  }
   .footer-column {
     display: inline;
     float: left;
@@ -5404,18 +5380,10 @@ figure.figure figcaption {
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
   }
-  figure {
-    max-width: 50%;
-    height: auto;
-  }
 }
 @media screen and (max-width: 485px) {
   h1 {
     font-size: 20px;
-  }
-  figure {
-    max-width: 50%;
-    height: auto;
   }
 }
 /**

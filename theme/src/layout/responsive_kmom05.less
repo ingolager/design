@@ -3,10 +3,13 @@
 //  */
 //
 
-@media screen and (max-width: 1210px) {
+@media screen and (max-width: 1222px) {
     .region-header-col-1,
     .region-header-col-2 {
         #desinax-vgrid.column(@columns - 3);
+    }
+    .my-navbar li {
+        padding-top: 0;
     }
 }
 
@@ -37,10 +40,10 @@
         display: none;
     }
 
-    figure {
-        max-width: 50%;
-        height: auto;
-    }
+    // figure {
+    //     max-width: 50%;
+    //     height: auto;
+    // }
 
 
     h1 {
@@ -56,30 +59,28 @@
     .region-header-col-3 {
         display: grid;
     }
-}
 
-@media screen and (max-width: 850px) {
-    .region-main.has-sidebar-right {
-        #desinax-vgrid.column(@columns);
-    }
-
-    .region-sidebar-left {
-        #desinax-vgrid.column(@columns);
-    }
-
-    .region-sidebar-right {
-        #desinax-vgrid.column(@columns);
-        #desinax-vgrid.push(0);
-    }
+    // .region-main.has-sidebar-right {
+    //     #desinax-vgrid.column(@columns);
+    // }
+    //
+    // .region-sidebar-left {
+    //     #desinax-vgrid.column(@columns);
+    // }
+    //
+    // .region-sidebar-right {
+    //     #desinax-vgrid.column(@columns);
+    //     #desinax-vgrid.push(0);
+    // }
 
     .footer-column {
         #desinax-vgrid.column(@columns);
     }
 
-    figure {
-        max-width: 50%;
-        height: auto;
-    }
+    // figure {
+    //     max-width: 50%;
+    //     height: auto;
+    // }
 }
 
 @media screen and (max-width: 485px) {
@@ -87,8 +88,8 @@
         font-size: 20px;
     }
 
-    figure {
-        max-width: 50%;
-        height: auto;
-    }
+//     figure {
+//         max-width: 50%;
+//         height: auto;
+//     }
 }

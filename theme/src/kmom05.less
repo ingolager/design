@@ -1,5 +1,5 @@
 /*!
- * Stylesheet for design kmom04.
+ * Stylesheet for design kmom05.
  *
  * This stylesheet is for the design course and kmom02 where we use LESS.
  */
@@ -102,6 +102,43 @@
 @import "layout/footer_kmom05.less";
 @import "layout/responsive_kmom05.less";
 @import "layout/regions.less";     // To add style for ?regions
+
+
+
+/**
+ * Figure and figcaption for images and other media using figure/figcaption
+ */
+@import "src/@desinax/figure/less/asciinema.less";
+@import "src/@desinax/figure/less/codepen.less";
+@import "src/@desinax/figure/less/figure.less";
+
+
+
+figure.figure {
+    @maxContentWidth: 960px;
+    #desinax-figure.figure(@maxContentWidth);
+}
+
+
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    #desinax-figure.figure();
+}
+
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+
+
 
 
 
