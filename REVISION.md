@@ -26,3 +26,7 @@ Done with kmom03, implemented grid layout on whole website.
 v.4.0.0 (2018-12-02)
 ----------------------
 Done with kmom4, with three different layouts in different colors.
+
+v.5.0.0 (2018-12-13)
+----------------------
+Done with kmom5, with a new blog and experimenting with images.
