@@ -15,39 +15,20 @@ h1 {
     word-break: break-all;
 }
 
-h2 {
-    font-family: 'Lora', serif;
-    font-size: 24px;
-    word-break: break-all;
-}
-
 h3 {
     font-family: 'Lora', serif;
     margin-top: 0;
     padding-top: 26px;
     word-break: break-all;
-    background-color: rgba(255,255,255,0.9);
-    padding: 0 10px;
-    border-radius: 4px;
 }
 
 h4 {
     font-family: 'Lora', serif;
     font-size: 24px;
     word-break: break-all;
-    background-color: rgba(255,255,255,0.9);
-    padding: 0 10px;
-    border-radius: 4px;
 }
 
-h5 {
-    font-family: 'Lora', serif;
-    font-size: 24px;
-    word-break: break-all;
-    background-color: rgba(255,255,255,0.0);
-}
-
-// General layout@
+// General layout
 
 .row {
     #desinax-vgrid.row();
@@ -70,27 +51,9 @@ h5 {
 }
 
 .region-flash {
-    #desinax-vgrid.push(9);
-    margin-top: 24px;
-    width: 0;
-    height: 0;
-    border-left: 40px solid transparent;
-    border-right: 40px solid transparent;
-    border-top: 40px solid rgba(255,255,103,0.9);
-    border-radius: 4px;
-    animation-name: rock;
-    animation-duration: 2s;
-
+    #desinax-vgrid.column(@columns);
 }
 
-@keyframes rock {
-    0% {transform: rotate(5deg);}
-    20% {transform: rotate(-9deg);}
-    40% {transform: rotate(7deg);}
-    60% {transform: rotate(-5deg);}
-    80% {transform: rotate(3deg);}
-    100% {transform: rotate(-1deg);}
-}
 // main layout
 
 .region-breadcrumb {
@@ -118,8 +81,8 @@ h5 {
     }
 
     &.has-sidebar-left.has-sidebar-right {
-        #desinax-vgrid.column(@columns * 1 / 2);
-        #desinax-vgrid.push(0);
+        #desinax-vgrid.column(@columns - 12);
+        #desinax-vgrid.push(1);
     }
 }
 
@@ -150,9 +113,6 @@ h5 {
 
 .region-sidebar-left ul {
     list-style-type: none;
-    background-color: rgba(255,255,255,0.9);
-    border-radius: 4px;
-    padding: 0 10px;
 }
 
 .region-sidebar-left a {
@@ -164,22 +124,11 @@ h5 {
     text-decoration: underline;
 }
 
-.region-breadcrumb {
-    #desinax-vgrid.column(@columns * 1 / 4);
-}
-
-.region-breadcrumb.has-sidebar-right {
-    #desinax-vgrid.column(@columns * 1 / 4 - 2);
-}
-
 .breadcrumb-list ul {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     list-style-type: none;
     text-decoration: none;
-    background-color: rgba(255,255,255,0.9);
-    padding: 0 10px;
-    border-radius: 4px;
 }
 
 .breadcrumb-list a {
@@ -195,20 +144,11 @@ h5 {
 .next-previous a {
     color: @color-secondary-1-4;
     text-decoration: none;
-    background-color: rgba(255,255,255,0.9);
-    padding: 0 10px;
-    border-radius: 4px;
 }
 
 .next-previous a:hover {
     color: @color-secondary-1-2;
     text-decoration: none;
-}
-
-article {
-    background-color: rgba(255,255,255,0.9);
-    padding: 0 10px;
-    border-radius: 4px;
 }
 
 figure {
@@ -224,9 +164,6 @@ figure.figure figcaption {
 
 .block p {
     font-size: 14px;
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 0 10px;
-    border-radius: 4px;
 }
 
 p a {
@@ -237,22 +174,4 @@ p a {
 p a:hover {
     color: @color-secondary-1-2;
     text-decoration: underline;
-}
-
-.blog-list {
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 0 10px;
-    border-radius: 4px;
-}
-
-.blog-toc {
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 0 10px;
-    border-radius: 4px;
-}
-
-.article-toc {
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 0 10px;
-    border-radius: 4px;
 }

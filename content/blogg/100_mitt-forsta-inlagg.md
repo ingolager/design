@@ -18,7 +18,7 @@ Efter två månader med ont (ischias?) i rumpa och lår och en veckas vabbande m
 
 Ibland känns det bra att bo precis vid Sörmlandsskogarna bästa cykelstigar. Stockholmsregionens största och bästa mtb-lopp Lida loop passerar nästan vid husknuten. Stigen på bilden ovan ingår i den 65 km långa slingan i skogen runt sjön Getaren.
 
-#### Men ska en cykelstig verkligen vara så slät? {#buckligare-stig}
+##Men ska en cykelstig verkligen vara så slät? {#buckligare-stig}
 
 [FIGURE src="image/flowstig.jpg?h=350&sharpen&crop=400, 560, 400, 0" class="left w50" caption="Stigen fortsätter åt vänster." alt="Mtb-cykel på stig i skogen"]
 
@@ -30,7 +30,7 @@ Nä, den ska den förstås inte vara. Helst ska den klara barnvagnstestet, det v
 
 Cykel i skog kräver stor hänsyn till alla andra som är ute i skog och mark. Tyvärr verkar det uppstå en del konflikter mellan cyklister och andra - som tur är har jag inte hört av det just där jag håller till. För mig är det självklart att sakta ner och hälsa när jag möter fotgängare. Det händer ibland att jag ser cyklister i full fart på motionsspår. Helt obegripligt i mina ögon och hur tråkigt som helst. Vem vill cykla på utjämnad mark liksom?  
 
-#### Femtio nyanser av grådask {#kamera}
+##Femtio nyanser av grådask {#kamera}
 
 Och eftersom det ska bloggas följde en kamera med. Alltså min iPhone 8 som ändå alltid hänger med vart jag än ska. Trots att jag var ute vid 11-12-tiden på dagen var det nästan mörkt ute i duggregnet. Fördelen med det är att det inte fanns några skuggor som störde.
 

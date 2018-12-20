@@ -14,13 +14,13 @@ En fördel med att cykla mtb är att man får smutsa ner sig lite. För en konto
 
 <!--more-->
 
-#### Naturen är skör om hösten! {#lerig-hit}
+##Naturen är skör om hösten! {#lerig-hit}
 
 [FIGURE src="image/litelera.jpg?h=350&sharpen&crop=600, 900, 600, 0" class="right w50" caption="Lite lera på benen." alt="Cyklistens ben uppifrån."]
 Många av de knixigare stigarna i området är väldigt blöta just nu, och jag vill helst inte cykla där det är riktigt lerigt. Inte så mycket för att jag ogillar gegga, utan mest för att inte slita så mycket på naturen. Men kommer det ett riktigt lerhål och man absolut ska fram, cykla rakt fram igenom geggan och gör inte en runda bredvid vätan. Himla onödigt att bredda stigen.
 [FIGURE src="image/litelera.jpg?h=250&r=-90&sharpen&crop=600, 900, 600, 0" class="left w67" caption="Ur en annan synvinkel." alt="Cyklistens ben uppifrån."]
 
-#### Geggiga skor {#cornelis}
+##Geggiga skor {#cornelis}
 
 Gud fader som i himmelen bor</br>
 Blundar och sover sött</br>

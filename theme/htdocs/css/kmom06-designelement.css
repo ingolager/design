@@ -5038,7 +5038,7 @@ h5 {
   font-family: 'Lora', serif;
   font-size: 24px;
   word-break: break-all;
-  background-color: #A1D43C;
+  background-color: rgba(255, 255, 255, 0);
 }
 .row {
   display: block;
@@ -5071,8 +5071,30 @@ h5 {
   height: 0;
   border-left: 40px solid transparent;
   border-right: 40px solid transparent;
-  border-top: 40px solid rgba(255, 255, 255, 0.9);
+  border-top: 40px solid rgba(255, 255, 103, 0.9);
   border-radius: 4px;
+  animation-name: rock;
+  animation-duration: 2s;
+}
+@keyframes rock {
+  0% {
+    transform: rotate(5deg);
+  }
+  20% {
+    transform: rotate(-9deg);
+  }
+  40% {
+    transform: rotate(7deg);
+  }
+  60% {
+    transform: rotate(-5deg);
+  }
+  80% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(-1deg);
+  }
 }
 .region-breadcrumb {
   display: inline;
@@ -5152,6 +5174,7 @@ h5 {
   list-style-type: none;
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 4px;
+  padding: 0 10px;
 }
 .region-sidebar-left a {
   color: #122661;
@@ -5230,6 +5253,21 @@ p a:hover {
   color: #586BA5;
   text-decoration: underline;
 }
+.blog-list {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0 10px;
+  border-radius: 4px;
+}
+.blog-toc {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0 10px;
+  border-radius: 4px;
+}
+.article-toc {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0 10px;
+  border-radius: 4px;
+}
 .inner-wrap-header .row {
   max-width: 100%;
 }
@@ -5297,10 +5335,8 @@ p a:hover {
   color: #586BA5;
 }
 .rm-desktop ul li {
+  background-color: #c9df9d;
   padding-top: 0;
-}
-.rm-submenu-button li {
-  background-color: #81B41B;
 }
 #rm-menu {
   background-color: #122661;
@@ -5315,7 +5351,7 @@ p a:hover {
   border: 2px;
 }
 .outer-wrap-footer {
-  background-color: #A1D43C;
+  background-image: linear-gradient(rgba(161, 212, 60, 0.8), rgba(161, 212, 60, 0.8)), url("../img/lakanny.jpg");
 }
 .inner-wrap-footer .row {
   max-width: 100%;
@@ -5330,9 +5366,11 @@ p a:hover {
 .footer-column-x p {
   font-family: 'Hind';
   font-size: 16px;
+  padding: 0;
 }
 .footer-column p {
-  background-color: #A1D43C;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0);
 }
 .footer-column a {
   color: #122661;
@@ -5354,7 +5392,7 @@ p a:hover {
   font-family: 'Hind';
   font-size: 16px;
   margin-top: 24px;
-  background-color: #A1D43C;
+  background-color: rgba(255, 255, 255, 0);
 }
 @media screen and (max-width: 1222px) {
   .region-header-col-1,

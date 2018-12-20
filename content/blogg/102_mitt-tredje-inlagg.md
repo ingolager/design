@@ -16,7 +16,7 @@ Ute ur cykelskogen väntar den civiliserade världen. Ön Stora Essingen i Stock
 
 Och när spårvagnen kommer är det tacksamt att tacksamt att ta fram sin kamera. Men utsnittet på den här stora bilden var inte så roligt. Det kommer inte att locka så många läsare.
 
-####Vi tajtar till det... {#tajtare}
+##Vi tajtar till det... {#tajtare}
 
 [FIGURE src="image/essingen.jpg&w=400&crop=700,400,right,150&sharpen" class="right w50" caption="Spårvagnen rullar in på hållplats Stora Essingen i riktning Solna station." alt="Spårvagn anländer till hållplats."]
 [FIGURE src="image/essingen.jpg&w=400&crop=700,400,right,150&sharpen&convolve=lighten" class="right w50" caption="Spårvagnen rullar in på hållplats Stora Essingen i riktning Solna station." alt="Spårvagn anländer till hållplats."]
@@ -29,7 +29,7 @@ För att denna bild ska funka måste man nog ljusa till den lite, så jag gör d
 
 
 
-####...och tänder lyset {#ljusare}
+##...och tänder lyset {#ljusare}
 
 Såja. Nu blev det lite bättre i alla fall. Men det är ju en grymt tråkig bild. Bäst att knasa till den lite.
 [FIGURE src="image/essingen.jpg&w=600&crop=700,400,right,150&sharpen&f=colorize,60,0,0,0&f0=brightness,50&f1=contrast,-30&f2=smooth,-7" class="center" caption="Spårvagnen rullar in på hållplats Stora Essingen i riktning Lucy in the Sky with Diamonds." alt="Spårvagn anländer till hållplats."]
