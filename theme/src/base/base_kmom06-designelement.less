@@ -1,0 +1,37 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+
+ @import url('https://fonts.googleapis.com/css?family=Black+And+White+Picture');
+ @import url('https://fonts.googleapis.com/css?family=Black+And+White+Picture|Open+Sans');
+ @import url('https://fonts.googleapis.com/css?family=Oswald');
+ @import url('https://fonts.googleapis.com/css?family=Lora');
+ @import url('https://fonts.googleapis.com/css?family=Hind');
+ @import url('https://fonts.googleapis.com/css?family=Raleway');
+
+@bgColorHtml: #fff;
+@bgColorBody: #fff;
+@colorBody: #333;
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    #desinax-hgrid.font(@fontSizeBody);
+    font-family: 'Hind';
+    background-image: url("../img/storcykel.jpg");
+    background-attachment: fixed;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#desinax-hgrid.activateDefaultTypography();

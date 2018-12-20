@@ -2,20 +2,20 @@
 title: "Hem"
 
 views:
-    image:
+    arrow-left:
+        region: sidebar-left
+        template: anax/v2/block/default
+        data:
+            meta:
+                type: single
+                route: block/arrow-left
+    arrow-right:
         region: sidebar-right
         template: anax/v2/block/default
         data:
             meta:
                 type: single
-                route: block/index-image
-    byline:
-        region: sidebar-right
-        template: anax/v2/block/default
-        data:
-            meta:
-                type: single
-                route: block/byline
+                route: block/arrow-right
 
 ---
 En gnutta känsla för form
@@ -27,7 +27,7 @@ Men trots att jag ständigt misslyckas med att ta egna bilder tas jag ändå på
 
 Därför ska det bli spännande att gå denna kurs och få lära sig något om hantverket. Och vem vet, kanske har jag en känsla för design. Åtminstone en liten gnutta.
 
-#### ur Solnedgång på Hafvet
+## ur Solnedgång på Hafvet
 
 Havet är grönt,</br>
 Så dunkelt absinthgrönt;</br>

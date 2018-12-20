@@ -8,7 +8,7 @@ Enligt branschens gemensamma mätföretag MMS var 2017 års största TV-kanaler 
 
 Metod
 -----------------------
-I rapporten utnyttjas  Mozillas plug-in ColorZilla för att sammanställa färgerna på webbplatserna. Jag gör sedan en analys utifrån den kunskap som bygger på det jag lärt mig under kursen och tidigare erfarenhet. Avsnittet The Hidden Meaning of Colors i online-boken Web Design - The Complete Reference ger stöd i analysen. Enbart webbplatsernas startsidor ingår i granskningen.
+I rapporten utnyttjas Mozillas plug-in ColorZilla för att sammanställa färgerna på webbplatserna. Jag gör sedan en analys utifrån den kunskap som bygger på det jag lärt mig under kursen och tidigare erfarenhet. Avsnittet The Hidden Meaning of Colors i online-boken Web Design - The Complete Reference ger stöd i analysen. Enbart webbplatsernas startsidor ingår i granskningen.
 
 Resultat
 -----------------------

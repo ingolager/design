@@ -38,7 +38,7 @@ Denna webbplats är ett studentarbete inom kursen Teknisk webbdesign och använd
 
 Denna webbplats utvecklas under kursens gång i takt med att jag lär mig mer om design och hur den kan implementeras.
 
-####ur Solnedgång på Hafvet (2)
+##ur Solnedgång på Hafvet (2)
 
 Sverige ligger som en rök,</br>
 Som röken af en Maduro-Havanna,</br>
