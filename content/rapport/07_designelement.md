@@ -1,4 +1,4 @@
-Tema designelement
+kmom06 - tema designelement
 ===========================
 Jag har arbetat med åtminstone dessa designelement till mitt tema: färg, bild, form, genomskinlighet, djup, textur och rörelse. Temat har också ärvt element som grid och typografi från tidigare teman.
 

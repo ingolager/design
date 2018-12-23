@@ -30,3 +30,7 @@ Done with kmom4, with three different layouts in different colors.
 v.5.0.0 (2018-12-13)
 ----------------------
 Done with kmom5, with a new blog and experimenting with images.
+
+v.6.0.0 (2018-12-23)
+-----------------------
+Done with kmom06, layouts elements of design and principles of design.

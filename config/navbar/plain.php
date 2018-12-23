@@ -38,5 +38,15 @@ return [
             "url" => "test",
             "title" => "Test- och leksida för markdown.",
         ],
+        [
+            "text" => "Rapport",
+            "url" => "rapport",
+            "title" => "Rapporter för inlämning.",
+        ],
+        [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "En bloggsida med gott och blandat.",
+        ],
     ],
 ];
