@@ -5009,17 +5009,28 @@ h1 {
   font-size: 36px;
   margin-bottom: 26px;
   word-break: break-all;
+  border-bottom: solid #504848 2px;
 }
-h3 {
+h2 {
   font-family: 'Lora', serif;
-  margin-top: 0;
-  padding-top: 26px;
+  font-size: 20px;
   word-break: break-all;
+  border-bottom: solid #504848 1px;
 }
 h4 {
   font-family: 'Lora', serif;
-  font-size: 24px;
+  font-size: 20px;
   word-break: break-all;
+  background-color: #af0b0b;
+  color: #fff;
+  border-bottom: solid #504848 3px;
+}
+h5 {
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  word-break: break-all;
+  color: #fff;
+  border-bottom: solid #504848 2px;
 }
 .row {
   display: block;
@@ -5051,6 +5062,7 @@ h4 {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  display: none;
 }
 .region-breadcrumb {
   display: inline;
@@ -5086,10 +5098,10 @@ h4 {
 .region-main.has-sidebar-left.has-sidebar-right {
   display: inline;
   float: left;
-  width: 48.95833333%;
+  width: 40.625%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  margin-left: 4.6875%;
+  margin-left: 8.85416667%;
 }
 .region-sidebar-left,
 .region-sidebar-right {
@@ -5101,7 +5113,6 @@ h4 {
 }
 .region-sidebar-right {
   margin-left: 4.6875%;
-  margin-top: 24px;
 }
 .region-sidebar-left.has-sidebar-right {
   display: inline;
@@ -5109,7 +5120,6 @@ h4 {
   width: 15.625%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  margin-top: 48px;
 }
 .region-sidebar-right.has-sidebar-left {
   display: inline;
@@ -5118,7 +5128,6 @@ h4 {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 4.6875%;
-  margin-top: 48px;
 }
 .region-main.byline {
   display: inline;
@@ -5131,11 +5140,12 @@ h4 {
   list-style-type: none;
 }
 .region-sidebar-left a {
-  color: #122661;
+  color: #6b0000;
   text-decoration: none;
 }
 .region-sidebar-left a:hover {
   text-decoration: underline;
+  color: #e34848;
 }
 .breadcrumb-list ul {
   font-family: 'Open Sans', sans-serif;
@@ -5144,19 +5154,19 @@ h4 {
   text-decoration: none;
 }
 .breadcrumb-list a {
-  color: #122661;
+  color: #6b0000;
   text-decoration: underline;
 }
 .breadcrumb-list a:hover {
-  color: #586BA5;
+  color: #e34848;
   text-decoration: underline;
 }
 .next-previous a {
-  color: #122661;
+  color: #6b0000;
   text-decoration: none;
 }
 .next-previous a:hover {
-  color: #586BA5;
+  color: #e34848;
   text-decoration: none;
 }
 figure {
@@ -5172,15 +5182,19 @@ figure.figure figcaption {
   font-size: 14px;
 }
 p a {
-  color: #122661;
+  color: #6b0000;
   text-decoration: underline;
 }
 p a:hover {
-  color: #586BA5;
+  color: #e34848;
   text-decoration: underline;
 }
 .inner-wrap-header .row {
   max-width: 100%;
+  background-color: #af0b0b;
+  padding-bottom: 18px;
+  padding-left: 24px;
+  border-bottom: solid #504848 6px;
 }
 .inner-wrap-header {
   margin-right: auto;
@@ -5201,7 +5215,7 @@ p a:hover {
   line-height: 78px;
 }
 .site-logo-text a {
-  color: #81B41B;
+  color: #fff;
   text-decoration: none;
 }
 .region-header-col-2 {
@@ -5230,28 +5244,32 @@ p a:hover {
   float: left;
 }
 .my-navbar li {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Opens Sans', sans-serif;
   font-size: 18px;
-  background-color: #fff;
-  padding-top: 42px;
+  background-color: #af0b0b;
+  padding-top: 45px;
 }
 .my-navbar li a {
   padding: 0 2em 0 0;
-  color: #122661;
+  color: #fff;
   text-decoration: none;
 }
 .my-navbar li a:hover {
   text-decoration: none;
-  color: #586BA5;
+  color: #ffa4a4;
 }
 .rm-desktop ul li {
   padding-top: 0;
 }
+.rm-desktop ul li a {
+  border-bottom: solid #504848 2px;
+}
 #rm-menu {
-  background-color: #122661;
+  background-color: #af0b0b;
+  border-bottom: solid #504848 6px;
 }
 #rm-menu-button.rm-clicked {
-  color: #78B2BA;
+  color: #423a3a;
 }
 .rm-mobile li {
   font-family: 'Open Sans', sans-serif;
@@ -5260,7 +5278,8 @@ p a:hover {
   border: 2px;
 }
 .outer-wrap-footer {
-  background-color: rgba(161, 212, 60, 0.8);
+  background-color: #af0b0b;
+  border-bottom: solid #504848 6px;
 }
 .inner-wrap-footer .row {
   max-width: 100%;
@@ -5275,13 +5294,14 @@ p a:hover {
 .footer-column-x p {
   font-family: 'Hind';
   font-size: 16px;
+  color: #fff;
 }
 .footer-column a {
-  color: #122661;
+  color: #fff;
   text-decoration: underline;
 }
 .footer-column a:hover {
-  color: #586BA5;
+  color: #423a3a;
   text-decoration: underline;
 }
 .site-footer {
@@ -5296,6 +5316,7 @@ p a:hover {
   font-family: 'Hind';
   font-size: 16px;
   margin-top: 24px;
+  color: #fff;
 }
 @media screen and (max-width: 1222px) {
   .region-header-col-1,

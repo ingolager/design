@@ -5,6 +5,7 @@ views:
     arrow-left:
         region: sidebar-left
         template: anax/v2/block/default
+        sort: 2
         data:
             meta:
                 type: single

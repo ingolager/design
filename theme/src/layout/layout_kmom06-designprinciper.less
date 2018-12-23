@@ -13,19 +13,31 @@ h1 {
     font-size: 36px;
     margin-bottom: 26px;
     word-break: break-all;
+    border-bottom: solid #504848 2px;
 }
 
-h3 {
+h2 {
     font-family: 'Lora', serif;
-    margin-top: 0;
-    padding-top: 26px;
+    font-size: 20px;
     word-break: break-all;
+    border-bottom: solid #504848 1px;
 }
 
 h4 {
     font-family: 'Lora', serif;
-    font-size: 24px;
+    font-size: 20px;
     word-break: break-all;
+    background-color: @color-primary-0;
+    color: @bgColorBody;
+    border-bottom: solid #504848 3px;
+}
+
+h5 {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    word-break: break-all;
+    color: @bgColorBody;
+    border-bottom: solid #504848 2px;
 }
 
 // General layout
@@ -52,6 +64,7 @@ h4 {
 
 .region-flash {
     #desinax-vgrid.column(@columns);
+    display: none;
 }
 
 // main layout
@@ -81,8 +94,8 @@ h4 {
     }
 
     &.has-sidebar-left.has-sidebar-right {
-        #desinax-vgrid.column(@columns - 12);
-        #desinax-vgrid.push(1);
+        #desinax-vgrid.column(@columns - 14);
+        #desinax-vgrid.push(2);
     }
 }
 
@@ -93,18 +106,15 @@ h4 {
 
 .region-sidebar-right {
     #desinax-vgrid.push(1);
-    margin-top: 24px;
 }
 
 .region-sidebar-left.has-sidebar-right {
     #desinax-vgrid.column(@columns * 1 / 4 - 2);
-    margin-top: 48px;
 }
 
 .region-sidebar-right.has-sidebar-left {
     #desinax-vgrid.column(@columns * 1 / 4);
     #desinax-vgrid.push(1);
-    margin-top: 48px;
 }
 
 .region-main.byline {
@@ -122,6 +132,7 @@ h4 {
 
 .region-sidebar-left a:hover {
     text-decoration: underline;
+    color: @color-secondary-1-2
 }
 
 .breadcrumb-list ul {

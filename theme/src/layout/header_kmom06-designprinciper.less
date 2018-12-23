@@ -2,6 +2,10 @@
 
 .inner-wrap-header .row {
     max-width: 100%;
+    background-color: @color-primary-0;
+    padding-bottom: 18px;
+    padding-left: 24px;
+    border-bottom: solid #504848 6px;
 }
 
 .inner-wrap-header {
@@ -20,7 +24,7 @@
 }
 
 .site-logo-text a {
-    color: @color-secondary-2-4;
+    color: @bgColorBody;
     text-decoration: none;
 }
 
@@ -48,33 +52,39 @@
 }
 
 .my-navbar li {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Opens Sans', sans-serif;
     font-size: 18px;
-    background-color: #fff;
-    padding-top: 42px;
+    background-color: @color-primary-0;
+    padding-top: 45px;
 }
 
 .my-navbar li a {
     padding: 0 2em 0 0;
-    color: @color-secondary-1-4;
+    color: @bgColorBody;
     text-decoration: none;
+
 }
 
 .my-navbar li a:hover {
     text-decoration: none;
-    color: @color-secondary-1-2;
+    color: #ffa4a4;
 }
 
 .rm-desktop ul li {
     padding-top: 0;
 }
 
+.rm-desktop ul li a {
+    border-bottom: solid #504848 2px;
+}
+
 #rm-menu {
-    background-color: @color-secondary-1-4;
+    background-color: @color-primary-0;
+    border-bottom: solid #504848 6px;
 }
 
 #rm-menu-button.rm-clicked {
-    color:  @color-primary-1;
+    color: #423a3a;
 }
 
 .rm-mobile li {
