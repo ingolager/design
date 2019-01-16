@@ -5193,7 +5193,6 @@ p a:hover {
   max-width: 100%;
   background-color: #af0b0b;
   padding-bottom: 18px;
-  padding-left: 24px;
   border-bottom: solid #504848 6px;
 }
 .inner-wrap-header {
@@ -5228,7 +5227,7 @@ p a:hover {
 .region-header-col-3 {
   display: inline;
   float: left;
-  width: 11.45833333%;
+  width: 7.29166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   display: none;
